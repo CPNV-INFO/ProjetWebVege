@@ -28,7 +28,7 @@ $title = "Rent A Snow - Home";
                 </div>
             </div>
 
-            <div class="slider-item" style="background-image: url(../../src/images/bg_2.jpg);">
+            <div class="slider-item" style="background-image: url(images/bg_2.jpg);">
                 <div class="overlay"></div>
                 <div class="container">
                     <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
@@ -102,7 +102,7 @@ $title = "Rent A Snow - Home";
                 <div class="col-md-8">
                     <div class="row">
                         <div class="col-md-6 order-md-last align-items-stretch d-flex">
-                            <div class="category-wrap-2 ftco-animate img align-self-stretch d-flex" style="background-image: url(../../src/images/category.jpg);">
+                            <div class="category-wrap-2 ftco-animate img align-self-stretch d-flex" style="background-image: url(images/category.jpg);">
                                 <div class="text text-center">
                                     <h2>Vegetables</h2>
                                     <p>Protect the health of every home</p>
@@ -111,12 +111,12 @@ $title = "Rent A Snow - Home";
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="category-wrap ftco-animate img mb-4 d-flex align-items-end" style="background-image: url(../../src/images/category-1.jpg);">
+                            <div class="category-wrap ftco-animate img mb-4 d-flex align-items-end" style="background-image: url(images/category-1.jpg);">
                                 <div class="text px-3 py-1">
                                     <h2 class="mb-0"><a href="#">Fruits</a></h2>
                                 </div>
                             </div>
-                            <div class="category-wrap ftco-animate img d-flex align-items-end" style="background-image: url(../../src/images/category-2.jpg);">
+                            <div class="category-wrap ftco-animate img d-flex align-items-end" style="background-image: url(images/category-2.jpg);">
                                 <div class="text px-3 py-1">
                                     <h2 class="mb-0"><a href="#">Vegetables</a></h2>
                                 </div>
@@ -126,12 +126,12 @@ $title = "Rent A Snow - Home";
                 </div>
 
                 <div class="col-md-4">
-                    <div class="category-wrap ftco-animate img mb-4 d-flex align-items-end" style="background-image: url(../../src/images/category-3.jpg);">
+                    <div class="category-wrap ftco-animate img mb-4 d-flex align-items-end" style="background-image: url(images/category-3.jpg);">
                         <div class="text px-3 py-1">
                             <h2 class="mb-0"><a href="#">Juices</a></h2>
                         </div>
                     </div>
-                    <div class="category-wrap ftco-animate img d-flex align-items-end" style="background-image: url(../../src/images/category-4.jpg);">
+                    <div class="category-wrap ftco-animate img d-flex align-items-end" style="background-image: url(images/category-4.jpg);">
                         <div class="text px-3 py-1">
                             <h2 class="mb-0"><a href="#">Dried</a></h2>
                         </div>

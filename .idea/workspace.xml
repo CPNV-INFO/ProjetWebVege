@@ -26,6 +26,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RunManager">
@@ -47,7 +53,7 @@
       <workItem from="1589897712119" duration="29000" />
       <workItem from="1590652391734" duration="677000" />
       <workItem from="1590653071350" duration="119000" />
-      <workItem from="1590653433764" duration="802000" />
+      <workItem from="1590653433764" duration="974000" />
     </task>
     <servers />
   </component>
