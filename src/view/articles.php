@@ -30,16 +30,16 @@ $rows = 0; // Column count
 
                         <li class="span3">
                             <div class="thumbnail">
-                                <a href="view/content/images/<?= $result['code']; ?>.jpg" target="blank"><img
-                                            src="<?= $result['photo']; ?>" alt="<?= $result['code']; ?>"></a>
+                                <a href="<?= $result['photo']; ?>.jpg" target="blank"><img
+                                            src="<?= $result['photo']; ?>" alt="<?= $result['name']; ?>"></a>
                                 <div class="caption">
                                     <h3>
-                                        <a href="index.php?action=displayASnow&code=<?= $result['code']; ?>"><?= $result['code']; ?></a>
+                                        <a href="index.php?action=displayASnow&code=<?= $result['name']; ?>"><?= $result['code']; ?></a>
                                     </h3>
-                                    <p><strong>Marque : </strong><?= $result['brand']; ?></p>
-                                    <p><strong>Modèle : </strong><?= $result['model']; ?></p>
-                                    <p><strong>Longueur : </strong><?= $result['snowLength']; ?> cm</p>
-                                    <p><strong>Prix :</strong> CHF <?= $result['dailyPrice']; ?>.- / jour</p>
+                                    <p><strong>Alliment : </strong><?= $result['name']; ?></p>
+                                    <p><strong>Pays : </strong><?= $result['origin']; ?></p>
+                                    <p><strong>variete : </strong><?= $result['variety']; ?> cm</p>
+                                    <p><strong>Prix :</strong> CHF <?= $result['']; ?>.- / jour</p>
                                     <p><strong>Disponibilité : </strong><?= $result['qtyAvailable']; ?></p>
                                     <?php if ($result['active']) : ?>
                                         <p><a href="index.php?action=snowLeasingRequest&code=<?= $result['code']; ?>"

@@ -79,15 +79,15 @@
                             <ul class="nav nav-pills ddmenu">
                                 <!-- Display the button which must be always (available for all type of users)-->
                                 <li><a href="index.php?action=home">Accueil</a></li>
-                                <li><a href="index.php?action=displayArticles">Snows</a></li>
-                                <!-- Display the button useful for login and register-->
-                                <?php if (!isset($_SESSION['userEmailAddress']) || (!isset($_GET['action'])) || ((@$_GET['action'] == "logout"))) : ?>
-                                    <li><a href="index.php?action=login">Login</a></li>
-                                    <li><a href="index.php?action=register" style="color:#FC05CB">S'inscrire</a></li>
-                                <?php else : ?>
-                                    <!-- Display the button useful for logout-->
-                                    <li><a href="index.php?action=logout">Se déconnecter</a></li>
-                                <?php endif; ?>
+                            <li><a href="index.php?action=displayArticles">Snows</a></li>
+                            <!-- Display the button useful for login and register-->
+                            <?php if (!isset($_SESSION['userEmailAddress']) || (!isset($_GET['action'])) || ((@$_GET['action'] == "logout"))) : ?>
+                                <li><a href="index.php?action=login">Login</a></li>
+                                <li><a href="index.php?action=register" style="color:#FC05CB">S'inscrire</a></li>
+                            <?php else : ?>
+                                <!-- Display the button useful for logout-->
+                                <li><a href="index.php?action=logout">Se déconnecter</a></li>
+                            <?php endif; ?>
                             </ul>
                             <!-- after login, we display the user name-->
                             <?php if (isset($_SESSION['userEmailAddress'])) : ?>

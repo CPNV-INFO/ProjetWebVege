@@ -15,7 +15,7 @@
 function getArticles()
 {
 
-    $snowsQuery = 'SELECT code, brand, model, snowLength, dailyPrice, qtyAvailable, photo, active FROM snows';
+    $snowsQuery = 'SELECT id, name, origin, variety, color, description, photo FROM vege';
 
     require_once 'model/dbConnector.php';
 

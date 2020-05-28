@@ -8,6 +8,8 @@
  * VERSION : 1.0
  * TIME :  9:10 AM
  */
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -61,24 +63,35 @@
 		    </div>
 		  </div>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Vegefoods</a>
-	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
+        <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Vegefoods</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="oi oi-menu"></span> Menu
+                </button>
+                <!-- after login, we display the user name-->
+                <?php if (isset($_SESSION['userEmailAddress'])) : ?>
+                    <br>
+                    <h6>Vous êtes connecté : <?= $_SESSION['userEmailAddress']; ?></h6>
+                <?php endif; ?>
+                <div class="collapse navbar-collapse" id="ftco-nav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="index.php?action=home">Accueil</a></li>
+                        <li class="nav-item"><a href="index.php?action=displayArticles">Shop</a></li>
+                        <!-- Display the button useful for login and register-->
+                        <?php if (!isset($_SESSION['userEmailAddress']) || (!isset($_GET['action'])) || ((@$_GET['action'] == "logout"))) : ?>
+                            <li class="nav-item"><a href="index.php?action=login">Login </a></li>
+                            <li class="nav-item"><a href="index.php?action=register" style="color:#FC05CB">S'inscrire</a></li>
+                        <?php else : ?>
+                            <!-- Display the button useful for logout-->
+                            <li class="nav-item"><a href="index.php?action=logout">Se déconnecter </a></li>
+                        <?php endif; ?>
 
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="index.php?action=home" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="index.php?action=login" class="nav-link">Login</a></li>
-	          <li class="nav-item"><a href="index.php?action=displayArticles" class="nav-link">Shop</a></li>
 
-
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     <!-- END nav -->
 
 

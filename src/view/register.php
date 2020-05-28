@@ -41,5 +41,5 @@ ob_start();
     </article>
 <?php
 $content = ob_get_clean();
-require 'Exgabarit.php';
+require 'gabarit.php';
 ?>
