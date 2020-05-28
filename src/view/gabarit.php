@@ -1,274 +1,194 @@
 <?php
+
 /**
- * @file      gabarit.php
- * @brief     This view is designed to centralize all common graphical component like header and footer (will be call by all views)
- * @author    Created by Pascal.BENZONANA
- * @author    Updated by Nicolas.GLASSEY
- * @version   13-APR-2020
+ * PROJET: Projet-Web-BDD
+ * FILE : gabarit.php
+ * AUTEUR : Skarfox
+ * DATE : 5/28/2020
+ * VERSION : 1.0
+ * TIME :  9:10 AM
  */
-
 ?>
-<!DOCTYPE HTML>
-<html>
-<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vegefoods - Free Bootstrap 4 Template by Colorlib</title>
     <meta charset="utf-8">
-    <title><?= $title; ?></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="Html5TemplatesDreamweaver.com">
-    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"> <!-- Remove this Robots Meta Tag, to allow indexing of site -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="view/content/scripts/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="view/content/scripts/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
 
-    <!-- Icons -->
-    <link href="view/content/scripts/icons/general/stylesheets/general_foundicons.css" media="screen" rel="stylesheet"
-          type="text/css"/>
-    <link href="view/content/scripts/icons/social/stylesheets/social_foundicons.css" media="screen" rel="stylesheet"
-          type="text/css"/>
-    <!--[if lt IE 8]>
-    <link href="view/content/scripts/icons/general/stylesheets/general_foundicons_ie7.css" media="screen"
-          rel="stylesheet"
-          type="text/css"/>
-    <link href="view/content/scripts/icons/social/stylesheets/social_foundicons_ie7.css" media="screen" rel="stylesheet"
-          type="text/css"/>
-    <![endif]-->
-    <link rel="stylesheet" href="view/content/scripts/fontawesome/css/font-awesome.min.css">
-    <!--[if IE 7]>
-    <link rel="stylesheet" href="view/content/scripts/fontawesome/css/font-awesome-ie7.min.css">
-    <![endif]-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
-    <link href="view/content/scripts/carousel/style.css" rel="stylesheet" type="text/css"/>
-    <link href="view/content/scripts/camera/css/camera.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/aos.css">
 
-    <link href="http://fonts.googleapis.com/css?family=Syncopate" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
 
-    <link href="view/content/styles/custom.css" rel="stylesheet" type="text/css"/>
-</head>
-<body id="pageBody">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
 
-<div id="divBoxed" class="container">
 
-    <div class="transparent-bg"
-         style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: -1;zoom: 1;"></div>
-
-    <div class="divPanel notop nobottom">
-        <div class="row-fluid">
-            <div class="span12">
-                <div id="divLogo" class="pull-left">
-                    <a href="index.php" id="divSiteTitle">Rent A Snow</a><br/>
-                    <a href="index.php" id="divTagLine">La glisse à moindre coût</a>
-                </div>
-                <div id="divMenuRight" class="pull-right">
-                    <div class="navbar">
-                        <button type="button" class="btn btn-navbar-highlight btn-large btn-primary"
-                                data-toggle="collapse" data-target=".nav-collapse">
-                            NAVIGATION <span class="icon-chevron-down icon-white"></span>
-                        </button>
-                        <div class="nav-collapse collapse">
-                            <ul class="nav nav-pills ddmenu">
-                                <!-- Display the button which must be always (available for all type of users)-->
-                                <li><a href="index.php?action=home">Accueil</a></li>
-                                <li><a href="index.php?action=displayArticles">Snows</a></li>
-                                <!-- Display the button useful for login and register-->
-                                <?php if (!isset($_SESSION['userEmailAddress']) || (!isset($_GET['action'])) || ((@$_GET['action'] == "logout"))) : ?>
-                                    <li><a href="index.php?action=login">Login</a></li>
-                                    <li><a href="index.php?action=register" style="color:#FC05CB">S'inscrire</a></li>
-                                <?php else : ?>
-                                    <!-- Display the button useful for logout-->
-                                    <li><a href="index.php?action=logout">Se déconnecter</a></li>
-                                <?php endif; ?>
-                            </ul>
-                            <!-- after login, we display the user name-->
-                            <?php if (isset($_SESSION['userEmailAddress'])) : ?>
-                                <h6>Vous êtes connecté : <?= $_SESSION['userEmailAddress']; ?></h6>
-                            <?php endif; ?>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row-fluid">
-            <div class="span12">
-                <!-- ________ SLIDER_____________-->
-                <?php if ((@$_GET['action'] == "home") || (!isset($_GET['action']))) : ?>
-                    <div id="headerSeparator"></div>
-                    <div class="camera_full_width">
-                        <div id="camera_wrap">
-                            <div data-src="view/content/slider-images/5.jpg">
-                                <div class="camera_caption fadeFromBottom cap1">Les derniers modèles toujours à
-                                    disposition.
-                                </div>
-                            </div>
-                            <div data-src="view/content/slider-images/1.jpg">
-                                <div class="camera_caption fadeFromBottom cap2">Découvrez des paysages fabuleux avec des
-                                    sensations.
-                                </div>
-                            </div>
-                            <div data-src="view/content/slider-images/2.jpg"></div>
-                        </div>
-                        <br style="clear:both"/>
-                        <div style="margin-bottom:40px"></div>
-                    </div>
-                    <div id="headerSeparator2"></div>
-                    <!-- ________ SLIDER_____________-->
-                <?php endif; ?>
-            </div>
-        </div>
-
-        <div class="contentArea">
-
-            <div class="divPanel notop page-content">
-                <div class="row-fluid">
-
-                    <!--__________CONTENU__________-->
-
-                    <div class="span12" id="divMain">
-                        <?= $content; ?>
-                    </div>
-
-                    <!--________FIN CONTENU________-->
-
-                </div>
-
-                <div id="footerInnerSeparator"></div>
-            </div>
-        </div>
-
-        <div id="footerOuterSeparator"></div>
-
-        <div id="divFooter" class="footerArea">
-            <div class="divPanel">
-                <div class="row-fluid">
-                    <div class="span3" id="footerArea1">
-                        <h3>Notre magasin</h3>
-                        <p>Nous sommes une équipe de jeunes snowboardeurs qui souhaitons faire découvrir cette
-                            discipline à tous les publics.</p>
-                        <p>
-                            <a href="#" title="Terms of Use">Terms of Use</a><br/>
-                            <a href="#" title="Privacy Policy">Privacy Policy</a><br/>
-                            <a href="#" title="FAQ">FAQ</a><br/>
-                            <a href="#" title="Sitemap">Sitemap</a>
-                        </p>
-                    </div>
-
-                    <div class="span3" id="footerArea2">
-                        <h3>Dernière nouveautés</h3>
-                        <p>
-                            <a href="#" title="">Le Burton B221 est à disposition</a><br/>
-                            <span style="text-transform:none;">15/05/2019</span>
-                        </p>
-                        <p>
-                            <a href="#" title="">Les horaires ont été étendus</a><br/>
-                            <span style="text-transform:none;">02/01/2019</span>
-                        </p>
-                        <p>
-                            <a href="#" title="">Paul champion suisse !</a><br/>
-                            <span style="text-transform:none;">19/03/2019</span>
-                        </p>
-                        <p>
-                            <a href="#" title="">VIEW ALL POSTS</a>
-                        </p>
-                    </div>
-
-                    <div class="span3" id="footerArea3">
-                        <h3>Horaires de location</h3>
-                        <p>Les locations peuvent s'effectuer tous les jours de la semaine en haute saison de 07h à 19h
-                            et en basse saison, les jours ouvrables de 8h à 18h.<br>
-                            Vous pouvez aussi passer par le site. Pour le retrait et le dépot, vous devrez passer au
-                            guichet automatique à l'arrière du magasin</p>
-                    </div>
-
-                    <div class="span3" id="footerArea4">
-                        <h3>Contacts</h3>
-
-                        <ul id="contact-info">
-                            <li>
-                                <i class="general foundicon-phone icon"></i>
-                                <span class="field">Téléphone :</span>
-                                <br/>
-                                +41 27 890 12 34
-                            </li>
-                            <li>
-                                <i class="general foundicon-mail icon"></i>
-                                <span class="field">Email :</span>
-                                <br/>
-                                <a href="mailto:info@rentasnow.com" title="Email">info@rentasnow.com</a>
-                            </li>
-                            <li>
-                                <i class="general foundicon-home icon" style="margin-bottom:50px"></i>
-                                <span class="field">Addresse :</span>
-                                <br/>
-                                12 Rue de la Glisse<br/>
-                                2704 Sautons, Valais<br/>
-                                Suisse
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-                <br/><br/>
-
-                <div class="row-fluid">
-                    <div class="span12">
-                        <p class="copyright">Copyright © 2019 Rent A Snow. All Rights Reserved.</p>
-                        <p class="social_bookmarks">
-                            <a href="#"><i class="social foundicon-facebook"></i> Facebook</a>
-                            <a href=""><i class="social foundicon-twitter"></i> Twitter</a>
-                            <a href="#"><i class="social foundicon-pinterest"></i> Pinterest</a>
-                            <a href="#"><i class="social foundicon-rss"></i> Rss</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="goto-here">
+		<div class="py-1 bg-primary">
+    	<div class="container">
+    		<div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
+	    		<div class="col-lg-12 d-block">
+		    		<div class="row d-flex">
+		    			<div class="col-md pr-4 d-flex topper align-items-center">
+					    	<div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
+						    <span class="text">+ 1235 2355 98</span>
+					    </div>
+					    <div class="col-md pr-4 d-flex topper align-items-center">
+					    	<div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
+						    <span class="text">youremail@email.com</span>
+					    </div>
+					    <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right">
+						    <span class="text">3-5 Business days delivery &amp; Free Returns</span>
+					    </div>
+				    </div>
+			    </div>
+		    </div>
+		  </div>
     </div>
-    <br/><br/><br/>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Vegefoods</a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
 
-    <script src="view/content/scripts/jquery.min.js" type="text/javascript"></script>
-    <script src="view/content/scripts/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="view/content/scripts/default.js" type="text/javascript"></script>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active"><a href="index.php?action=home" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="index.php?action=login" class="nav-link">Login</a></li>
+	          <li class="nav-item"><a href="index.php?action=displayArticles" class="nav-link">Shop</a></li>
 
 
-    <script src="view/content/scripts/carousel/jquery.carouFredSel-6.2.0-packed.js" type="text/javascript"></script>
-    <script type="text/javascript">$('#list_photos').carouFredSel({
-            responsive: true,
-            width: '100%',
-            scroll: 2,
-            items: {width: 320, visible: {min: 2, max: 6}}
-        });</script>
-    <script src="view/content/scripts/camera/scripts/camera.min.js" type="text/javascript"></script>
-    <script src="view/content/scripts/easing/jquery.easing.1.3.js" type="text/javascript"></script>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
 
-    <script type="text/javascript">function startCamera() {
-            $('#camera_wrap').camera({
-                fx: 'scrollLeft',
-                time: 2000,
-                loader: 'none',
-                playPause: false,
-                navigation: true,
-                height: '35%',
-                pagination: true
-            });
-        }
 
-        $(function () {
-            startCamera()
-        });</script>
+<div class="center">
+    <?=$content ?>
+</div>
 
-    <!-- scripts added to standard template-->
-    <script src="view/content/scripts/custo/userScript.js"></script>
+        <br>
+        <br>
+        <br>
 
-</body>
+
+
+
+    <footer class="ftco-footer ftco-section">
+      <div class="container">
+      	<div class="row">
+      		<div class="mouse">
+						<a href="#" class="mouse-icon">
+							<div class="mouse-wheel"><span class="ion-ios-arrow-up"></span></div>
+						</a>
+					</div>
+      	</div>
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Vegefoods</h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h2 class="ftco-heading-2">Menu</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Shop</a></li>
+                <li><a href="#" class="py-2 d-block">About</a></li>
+                <li><a href="#" class="py-2 d-block">Journal</a></li>
+                <li><a href="#" class="py-2 d-block">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Help</h2>
+              <div class="d-flex">
+	              <ul class="list-unstyled mr-l-5 pr-l-3 mr-4">
+	                <li><a href="#" class="py-2 d-block">Shipping Information</a></li>
+	                <li><a href="#" class="py-2 d-block">Returns &amp; Exchange</a></li>
+	                <li><a href="#" class="py-2 d-block">Terms &amp; Conditions</a></li>
+	                <li><a href="#" class="py-2 d-block">Privacy Policy</a></li>
+	              </ul>
+	              <ul class="list-unstyled">
+	                <li><a href="#" class="py-2 d-block">FAQs</a></li>
+	                <li><a href="#" class="py-2 d-block">Contact</a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+						  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+
+  </body>
 </html>

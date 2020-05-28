@@ -19,14 +19,14 @@ ob_start();
         <form class='form' method='POST' action="index.php?action=login">
             <div class="container">
                 <label for="userEmail"><b>Adresse email</b></label>
-                <input type="email" placeholder="Adresse email" name="inputUserEmailAddress" required>
+                <input type="email" placeholder="Adresse email" name="inputUserEmailAddress" required><br>
 
                 <label for="userPsw"><b>Mot de passe</b></label>
-                <input type="password" placeholder="Mot de passe" name="inputUserPsw" required>
+                <input type="password" placeholder="Mot de passe" name="inputUserPsw" required><br>
             </div>
             <div class="container">
                 <button type="submit" class="btn btn-default">Login</button>
-                <button type="reset" class="btn btn-default">Effacer</button>
+                <button type="reset" class="btn btn-default">Effacer</button><br>
                 <span class="psw"><a href="index.php?action=forgotPassword">Mot de passe oublié ?</a></span>
             </div>
         </form>
