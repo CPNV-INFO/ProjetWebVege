@@ -1,4 +1,5 @@
-﻿-- --------------------------------------------------------
+﻿
+--------------------------------------------------------
 -- Host: ProjetWebVege                        127.0.0.1
 -- Server version:               10.4.11-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
@@ -27,7 +28,7 @@ CREATE TABLE IF NOT EXISTS `vege` (
   `color` VARCHAR(20) NOT NULL,
   `description` varchar(200) NOT NULL DEFAULT '0',
   `photo` varchar(50) DEFAULT NULL,
-  PRIMARY KEY (`id`),
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
 
 -- Dumping data for table snows.snows: ~9 rows (approximately)
