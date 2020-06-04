@@ -1,5 +1,4 @@
-﻿
---------------------------------------------------------
+-- ------------------------------------------------------
 -- Host: ProjetWebVege                        127.0.0.1
 -- Server version:               10.4.11-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
