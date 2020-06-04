@@ -1,4 +1,3 @@
--- ------------------------------------------------------
 -- Host: ProjetWebVege                        127.0.0.1
 -- Server version:               10.4.11-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
@@ -12,12 +11,12 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
 
--- Dumping database structure for snows
+-- Dumping database structure for vege
 DROP DATABASE IF EXISTS `vege`;
 CREATE DATABASE IF NOT EXISTS `vege` /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci */;
 USE `vege`;
 
--- Dumping structure for table snows.snows
+-- Dumping structure for table vege.vege
 DROP TABLE IF EXISTS `vege`;
 CREATE TABLE IF NOT EXISTS `vege` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -30,9 +29,9 @@ CREATE TABLE IF NOT EXISTS `vege` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
 
--- Dumping data for table snows.snows: ~9 rows (approximately)
+-- Dumping data for table vege.vege: ~9 rows (approximately)
 DELETE FROM `vege`;
-/*!40000 ALTER TABLE `snows` DISABLE KEYS */;
+/*!40000 ALTER TABLE `vege` DISABLE KEYS */;
 INSERT INTO `vege` (`id`, `name`, `origin`, `variety`, `color`, `description`, `photo`) VALUES
 	(1, 'Banane','Brésil', NULL, 'Jaune', 'Banane exotique venant du Brésil cultivé avec pesticide.', 'view/content/images/banane_small.jpeg' ),
 	(2, 'Fraise','Espagne', NULL, 'Rouge', 'Fraises provenant d'' espagne cultivé en pleine airs avec pesticide. ', 'view/content/images/fraises_small.jpg' ),
@@ -45,9 +44,9 @@ INSERT INTO `vege` (`id`, `name`, `origin`, `variety`, `color`, `description`, `
 	(9, 'Champignons','France', NULL, 'Brun', 'Champignons des bois.', 'view/content/images/champignon_de_paris_small.jpg' ),
 	(10, 'Brocoli','Canada', NULL, 'Vert', 'Brocoli canadien, et tout le monde sait que le canada c est cool.', 'view/content/images/brocoli_small.jpg' );
 	
-/*!40000 ALTER TABLE `snows` ENABLE KEYS */;
+/*!40000 ALTER TABLE `vege` ENABLE KEYS */;
 
--- Dumping structure for table snows.users
+-- Dumping structure for table vege.users
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE IF NOT EXISTS `users` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
@@ -57,7 +56,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   UNIQUE KEY `userEmailAddress` (`userEmailAddress`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table snows.users: ~0 rows (approximately)
+-- Dumping data for table vege.users: ~0 rows (approximately)
 DELETE FROM `users`;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
