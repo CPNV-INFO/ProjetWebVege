@@ -15,7 +15,16 @@
 function getArticles()
 {
 
-    $snowsQuery = 'SELECT id, name, origin, variety, color, description, photo FROM vege';
+    $snowsQuery = 'SELECT id, name, origin, variety, color, description, photo,price FROM vege';
+
+    require_once 'model/dbConnector.php';
+
+    return executeQuerySelect($snowsQuery);
+}
+function getArticle($article)
+{
+
+    $snowsQuery = "SELECT id, name, origin, variety, color, description, photo,price FROM vege where name = '$article' ";
 
     require_once 'model/dbConnector.php';
 
