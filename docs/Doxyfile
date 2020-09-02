@@ -58,7 +58,11 @@ PROJECT_LOGO           =
 # entered, it will be relative to the location where doxygen was started. If
 # left blank the current directory will be used.
 
+<<<<<<< HEAD
 OUTPUT_DIRECTORY       = C:\Users\Ander.URIEL-GLARIA\Documents\GitHub\ProjetWebVege\docs
+=======
+OUTPUT_DIRECTORY       = C:\Users\Gwenael.WEST\Documents\GitHub\ProjetWebVege\docs
+>>>>>>> 7b1c2662fb4eab8086282550759bfd5fb69bf6f5
 
 # If the CREATE_SUBDIRS tag is set to YES then doxygen will create 4096 sub-
 # directories (in 2 levels) under the output directory of each output format and
@@ -844,7 +848,11 @@ WARN_LOGFILE           =
 # spaces. See also FILE_PATTERNS and EXTENSION_MAPPING
 # Note: If this tag is empty the current directory is searched.
 
+<<<<<<< HEAD
 INPUT                  = C:\Users\Ander.URIEL-GLARIA\Documents\GitHub\ProjetWebVege\src
+=======
+INPUT                  = C:\Users\Gwenael.WEST\Documents\GitHub\ProjetWebVege\src
+>>>>>>> 7b1c2662fb4eab8086282550759bfd5fb69bf6f5
 
 # This tag can be used to specify the character encoding of the source files
 # that doxygen parses. Internally doxygen uses the UTF-8 encoding. Doxygen uses
@@ -923,7 +931,7 @@ FILE_PATTERNS          = *.c \
 # be searched for input files as well.
 # The default value is: NO.
 
-RECURSIVE              = YES
+RECURSIVE              = NO
 
 # The EXCLUDE tag can be used to specify files and/or directories that should be
 # excluded from the INPUT source files. This way you can easily exclude a
@@ -1692,7 +1700,7 @@ MATHJAX_CODEFILE       =
 # The default value is: YES.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-SEARCHENGINE           = NO
+SEARCHENGINE           = YES
 
 # When the SERVER_BASED_SEARCH tag is enabled the search engine will be
 # implemented using a web server instead of a web client using JavaScript. There

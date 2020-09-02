@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "My Project", "index.html", [
+<<<<<<< HEAD
     [ "2.0 BOOTSTRAP JS PHILOSOPHY", "md__c___users__ander_8_u_r_i_e_l-_g_l_a_r_i_a__documents__git_hub__projet_web_vege_src_view_contd7e8e149e07a93cd3de0caceb8cfd801.html", null ],
     [ "README", "md__c___users__ander_8_u_r_i_e_l-_g_l_a_r_i_a__documents__git_hub__projet_web_vege_src_view_cont8e5a775308ecf45e8975b639dd93f431.html", null ],
     [ "Vegas Background jQuery Plugin", "md__c___users__ander_8_u_r_i_e_l-_g_l_a_r_i_a__documents__git_hub__projet_web_vege_src_view_content_scripts_vegas__r_e_a_d_m_e.html", null ],
@@ -35,11 +36,12 @@ var NAVTREE =
       [ "Data Structure Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ]
     ] ],
+=======
+>>>>>>> 7b1c2662fb4eab8086282550759bfd5fb69bf6f5
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "Globals", "globals.html", [
         [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ]
       ] ]
     ] ]
@@ -48,7 +50,11 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
+<<<<<<< HEAD
 "_exgabarit_8php.html"
+=======
+"dir_68267d1309a1af8e8297ef4c3efbcdba.html"
+>>>>>>> 7b1c2662fb4eab8086282550759bfd5fb69bf6f5
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

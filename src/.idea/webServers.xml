@@ -2,7 +2,11 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
+<<<<<<< HEAD
       <webServer id="fe6fcd00-5916-45f9-b751-1a16b686328c" name="ProjWEBBDDdepl" url="http://localhost:8080">
+=======
+      <webServer id="238fe976-122e-4348-b45f-5eb0f29cfe5a" name="Vege" url="http://localhost:8080">
+>>>>>>> 7b1c2662fb4eab8086282550759bfd5fb69bf6f5
         <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
     </option>

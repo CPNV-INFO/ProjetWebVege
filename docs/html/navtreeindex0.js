@@ -1,5 +1,6 @@
 var NAVTREEINDEX0 =
 {
+<<<<<<< HEAD
 "_exgabarit_8php.html":[6,0,0,3,2],
 "_exgabarit_8php.html#ae023eada04346291851b76b5409b00bd":[6,0,0,3,2,1],
 "_exgabarit_8php.html#afbf40ab7e9cf93abeb0fd64dfb687bd2":[6,0,0,3,2,0],
@@ -123,4 +124,15 @@ var NAVTREEINDEX0 =
 "view_2content_2email_2index_8php_source.html":[6,0,0,3,0,1,0],
 "view_2content_2site_2email_2index_8php.html":[6,0,0,3,0,3,0,0],
 "view_2content_2site_2email_2index_8php_source.html":[6,0,0,3,0,3,0,0]
+=======
+"dir_68267d1309a1af8e8297ef4c3efbcdba.html":[0,0,0],
+"files.html":[0,0],
+"globals.html":[0,1,0],
+"globals_vars.html":[0,1,1],
+"index.html":[],
+"index_8php.html":[0,0,0,0],
+"index_8php.html#a0c29b2ece77dc5b7160c8e4cdb68ded8":[0,0,0,0,0],
+"index_8php_source.html":[0,0,0,0],
+"pages.html":[]
+>>>>>>> 7b1c2662fb4eab8086282550759bfd5fb69bf6f5
 };

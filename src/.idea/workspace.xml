@@ -157,6 +157,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+<<<<<<< HEAD
   <component name="PhpDebugGeneral" notify_if_session_was_finished_without_being_paused="false" />
   <component name="PhpServers">
     <servers>
@@ -165,6 +166,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1gczlh8MVtJXgRdqcyWYQaXph5C" />
+=======
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1gczlCOvOIVB6WZvuLck61cbecP" />
+>>>>>>> 7b1c2662fb4eab8086282550759bfd5fb69bf6f5
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -173,6 +178,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/view/content" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
@@ -186,12 +192,20 @@
   </component>
   <component name="RunManager">
     <configuration name="ProjWEBBDDBIS" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8080">
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Serv" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8080">
+>>>>>>> 7b1c2662fb4eab8086282550759bfd5fb69bf6f5
       <method v="2" />
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="c6d4686c-77b2-4d92-ba96-ef6ae20ba5a3" name="Default Changelist" comment="" />
       <created>1598428820854</created>
       <option name="number" value="Default" />
@@ -200,6 +214,14 @@
       <workItem from="1598428821966" duration="2415000" />
       <workItem from="1598961382782" duration="3742000" />
       <workItem from="1599026649270" duration="6997000" />
+=======
+      <changelist id="2bea893a-8ac9-4ee6-a36b-59a21644aa6b" name="Default Changelist" comment="" />
+      <created>1598428816558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598428816558</updated>
+      <workItem from="1598428817692" duration="1948000" />
+>>>>>>> 7b1c2662fb4eab8086282550759bfd5fb69bf6f5
     </task>
     <servers />
   </component>
@@ -216,6 +238,7 @@
         </entry>
       </map>
     </option>
+<<<<<<< HEAD
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -319,5 +342,41 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+=======
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="540" y="194" key="#CLI_Interpreters" timestamp="1598428934643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="194" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1598428934643" />
+    <state x="667" y="182" key="#PHP" timestamp="1598428937485">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="182" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1598428937485" />
+    <state x="414" y="175" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598428914130">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598428914130" />
+    <state width="1340" height="266" key="GridCell.Tab.0.bottom" timestamp="1598431047887">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598431047887" />
+    <state width="1340" height="266" key="GridCell.Tab.0.center" timestamp="1598431047887">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598431047887" />
+    <state width="1340" height="266" key="GridCell.Tab.0.left" timestamp="1598431047887">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598431047887" />
+    <state width="1340" height="266" key="GridCell.Tab.0.right" timestamp="1598431047887">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598431047887" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1598429037799">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598429037799" />
+>>>>>>> 7b1c2662fb4eab8086282550759bfd5fb69bf6f5
   </component>
 </project>

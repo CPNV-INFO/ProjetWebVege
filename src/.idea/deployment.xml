@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="PublishConfigData" serverName="ProjWEBBDDdepl" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
       <paths name="ProjWEBBDDdepl">
+=======
+  <component name="PublishConfigData" serverName="Vege" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="Vege">
+>>>>>>> 7b1c2662fb4eab8086282550759bfd5fb69bf6f5
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
