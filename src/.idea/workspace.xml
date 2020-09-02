@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c6d4686c-77b2-4d92-ba96-ef6ae20ba5a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/view/article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/Doxyfile" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/Doxyfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/annotated.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/annotated.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/annotated_dup.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/annotated_dup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/articles_manager_8php.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/articles_manager_8php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/articles_manager_8php.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/articles_manager_8php.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/articles_manager_8php_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/articles_manager_8php_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/class_model_data_base_exception.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/class_model_data_base_exception.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/contact_8php.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/contact_8php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/contact_8php_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/contact_8php_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/controller_2articles_8php.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/controller_2articles_8php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/controller_2articles_8php.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/controller_2articles_8php.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/controller_2articles_8php_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/controller_2articles_8php_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/credits_8txt.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/credits_8txt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dark__mosaic_2_8__readme_8txt.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dark__mosaic_2_8__readme_8txt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/db_connector_8php.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/db_connector_8php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/db_connector_8php.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/db_connector_8php.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/db_connector_8php_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/db_connector_8php_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_08756d364c9b14e3d0373f479e58adb0.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_08756d364c9b14e3d0373f479e58adb0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_08756d364c9b14e3d0373f479e58adb0.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_08756d364c9b14e3d0373f479e58adb0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_0ade3b488d2586a427d6037797c71aa4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_0ade3b488d2586a427d6037797c71aa4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_1845da24901e939727b75a1489bb002d.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_1845da24901e939727b75a1489bb002d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_1845da24901e939727b75a1489bb002d.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_1845da24901e939727b75a1489bb002d.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_25e9219261dc80db2238a661c8802dee.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_25e9219261dc80db2238a661c8802dee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_2b5b9a238c1f1c1dfcce806fec505383.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_2b5b9a238c1f1c1dfcce806fec505383.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_2b5b9a238c1f1c1dfcce806fec505383.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_2b5b9a238c1f1c1dfcce806fec505383.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_390a29861199ad38e38edc2d6de4ebc8.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_390a29861199ad38e38edc2d6de4ebc8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_41ef5d8a90b9cc03a02949a5c062e6f0.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_41ef5d8a90b9cc03a02949a5c062e6f0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_41ef5d8a90b9cc03a02949a5c062e6f0.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_41ef5d8a90b9cc03a02949a5c062e6f0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_494cc5c7ed0339eb300b2c56c3be4278.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_494cc5c7ed0339eb300b2c56c3be4278.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_494cc5c7ed0339eb300b2c56c3be4278.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_494cc5c7ed0339eb300b2c56c3be4278.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_5dd65160827af56e6353642206b80129.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_5dd65160827af56e6353642206b80129.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_5dd65160827af56e6353642206b80129.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_5dd65160827af56e6353642206b80129.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_68267d1309a1af8e8297ef4c3efbcdba.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_68267d1309a1af8e8297ef4c3efbcdba.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_68267d1309a1af8e8297ef4c3efbcdba.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_68267d1309a1af8e8297ef4c3efbcdba.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_6a000bf3a98f7c8be6448c72000d93cb.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_6a000bf3a98f7c8be6448c72000d93cb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_727cf5b4c9eea23fedb8853f7a28c080.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_727cf5b4c9eea23fedb8853f7a28c080.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_727cf5b4c9eea23fedb8853f7a28c080.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_727cf5b4c9eea23fedb8853f7a28c080.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_89e00fbad2629a3459efaa85e2d6f24a.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_89e00fbad2629a3459efaa85e2d6f24a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_89e00fbad2629a3459efaa85e2d6f24a.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_89e00fbad2629a3459efaa85e2d6f24a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_92d542cd43c0343aab2109075637939c.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_92d542cd43c0343aab2109075637939c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_9fc0962f9c80970d88e9080b4651718b.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_9fc0962f9c80970d88e9080b4651718b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_b0817ff8df6f3126dc65ec5d651485d0.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_b0817ff8df6f3126dc65ec5d651485d0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_b0817ff8df6f3126dc65ec5d651485d0.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_b0817ff8df6f3126dc65ec5d651485d0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_b39b5091e8d1d2be4b7fc59d57749634.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_b39b5091e8d1d2be4b7fc59d57749634.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_b39b5091e8d1d2be4b7fc59d57749634.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_b39b5091e8d1d2be4b7fc59d57749634.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_bbcd6738dc5645d43cf301a8b80450d0.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_bbcd6738dc5645d43cf301a8b80450d0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_ee6b53d4260c3a78586ad048a19001fd.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_ee6b53d4260c3a78586ad048a19001fd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_ee6b53d4260c3a78586ad048a19001fd.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_ee6b53d4260c3a78586ad048a19001fd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_ef6f76bdbbb2b8c32d34f21da154ffcb.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_ef6f76bdbbb2b8c32d34f21da154ffcb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_fb947634ef6ab66ae8d0ae652d171fce.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_fb947634ef6ab66ae8d0ae652d171fce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_fb947634ef6ab66ae8d0ae652d171fce.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_fb947634ef6ab66ae8d0ae652d171fce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_fc25946ed20eaaf98861a87ea79a72dd.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_fc25946ed20eaaf98861a87ea79a72dd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dir_fc25946ed20eaaf98861a87ea79a72dd.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dir_fc25946ed20eaaf98861a87ea79a72dd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/documentation_2assets_2js_2_r_e_a_d_m_e_8md.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/documentation_2assets_2js_2_r_e_a_d_m_e_8md.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/doxygen.css" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/doxygen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/dynsections.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/dynsections.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/files.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/files.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/files_dup.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/files_dup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/gabarit_8php.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/gabarit_8php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/gabarit_8php.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/gabarit_8php.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/gabarit_8php_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/gabarit_8php_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/globals.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/globals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/globals_func.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/globals_func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/globals_vars.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/globals_vars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/hierarchy.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/hierarchy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/hierarchy.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/hierarchy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/home_8php.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/home_8php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/home_8php.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/home_8php.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/home_8php_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/home_8php_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/index_8php.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/index_8php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/index_8php.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/index_8php.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/index_8php_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/index_8php_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/login_8php.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/login_8php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/login_8php.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/login_8php.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/login_8php_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/login_8php_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/lost_8php.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/lost_8php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/lost_8php.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/lost_8php.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/lost_8php_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/lost_8php_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/menudata.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/menudata.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/navigation_8php.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/navigation_8php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/navigation_8php.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/navigation_8php.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/navigation_8php_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/navigation_8php_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/navtree.css" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/navtree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/navtree.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/navtree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/navtreedata.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/navtreedata.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/navtreeindex0.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/navtreeindex0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/pages.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/pages.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/register_8php.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/register_8php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/register_8php.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/register_8php.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/register_8php_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/register_8php_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/resize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/scripts_2fontawesome_2_r_e_a_d_m_e_8md.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/scripts_2fontawesome_2_r_e_a_d_m_e_8md.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/scripts_2vegas_2_r_e_a_d_m_e_8md.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/scripts_2vegas_2_r_e_a_d_m_e_8md.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/site_2contact_8php.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/site_2contact_8php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/site_2contact_8php_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/site_2contact_8php_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/site_2scripts_2fontawesome_2_r_e_a_d_m_e_8md.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/site_2scripts_2fontawesome_2_r_e_a_d_m_e_8md.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/site_2scripts_2vegas_2_r_e_a_d_m_e_8md.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/site_2scripts_2vegas_2_r_e_a_d_m_e_8md.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/site_2styles_2readme_8txt.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/site_2styles_2readme_8txt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/styles_2readme_8txt.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/styles_2readme_8txt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/tactile__noise_2_8__readme_8txt.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/tactile__noise_2_8__readme_8txt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/users_8php.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/users_8php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/users_8php.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/users_8php.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/users_8php_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/users_8php_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/users_manager_8php.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/users_manager_8php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/users_manager_8php.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/users_manager_8php.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/users_manager_8php_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/users_manager_8php_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/view_2articles_8php.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/view_2articles_8php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/view_2articles_8php.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/view_2articles_8php.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/view_2articles_8php_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/view_2articles_8php_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/view_2content_2email_2index_8php.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/view_2content_2email_2index_8php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/view_2content_2email_2index_8php_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/view_2content_2email_2index_8php_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/view_2content_2site_2email_2index_8php.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/view_2content_2site_2email_2index_8php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/html/view_2content_2site_2email_2index_8php_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/html/view_2content_2site_2email_2index_8php_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/articles.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/articles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/articlesManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/articlesManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/articles.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/articles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/gabarit.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/gabarit.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+<<<<<<< HEAD
+  <component name="PhpDebugGeneral" notify_if_session_was_finished_without_being_paused="false" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="b0c1f044-4faa-4ac7-a7db-54137fd38605" name="localhost" port="8080" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1gczlh8MVtJXgRdqcyWYQaXph5C" />
+=======
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1gczlCOvOIVB6WZvuLck61cbecP" />
+>>>>>>> 7b1c2662fb4eab8086282550759bfd5fb69bf6f5
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/view/content" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ander.URIEL-GLARIA\Documents\GitHub\ProjetWebVege\src\view" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ander.URIEL-GLARIA\Documents\GitHub\ProjetWebVege\src\view\content" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ProjWEBBDDBIS" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8080">
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Serv" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8080">
+>>>>>>> 7b1c2662fb4eab8086282550759bfd5fb69bf6f5
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
+      <changelist id="c6d4686c-77b2-4d92-ba96-ef6ae20ba5a3" name="Default Changelist" comment="" />
+      <created>1598428820854</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598428820854</updated>
+      <workItem from="1598428821966" duration="2415000" />
+      <workItem from="1598961382782" duration="3742000" />
+      <workItem from="1599026649270" duration="6997000" />
+=======
+      <changelist id="2bea893a-8ac9-4ee6-a36b-59a21644aa6b" name="Default Changelist" comment="" />
+      <created>1598428816558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598428816558</updated>
+      <workItem from="1598428817692" duration="1948000" />
+>>>>>>> 7b1c2662fb4eab8086282550759bfd5fb69bf6f5
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+<<<<<<< HEAD
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="695" y="130" key="#CLI_Interpreters" timestamp="1598964515219">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="695" y="130" key="#CLI_Interpreters/0.0.1858.1080@0.0.1858.1080" timestamp="1598964515219" />
+    <state x="822" y="118" key="#PHP" timestamp="1598428958983">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="822" y="118" key="#PHP/0.0.1858.1080@0.0.1858.1080" timestamp="1598428958983" />
+    <state x="569" y="111" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598429310634">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="569" y="111" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1598429310634" />
+    <state x="895" y="230" key="FileChooserDialogImpl" timestamp="1598964350110">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="895" y="230" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1598964350110" />
+    <state width="1815" height="364" key="GridCell.Tab.0.bottom" timestamp="1599029984919">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="364" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1599029984919" />
+    <state width="1815" height="364" key="GridCell.Tab.0.center" timestamp="1599029984919">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="364" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1599029984919" />
+    <state width="1815" height="364" key="GridCell.Tab.0.left" timestamp="1599029984919">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="364" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1599029984919" />
+    <state width="1815" height="364" key="GridCell.Tab.0.right" timestamp="1599029984919">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="364" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1599029984919" />
+    <state width="1815" height="364" key="GridCell.Tab.1.bottom" timestamp="1599029984919">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="364" key="GridCell.Tab.1.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1599029984919" />
+    <state width="1815" height="364" key="GridCell.Tab.1.center" timestamp="1599029984919">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="364" key="GridCell.Tab.1.center/0.0.1858.1080@0.0.1858.1080" timestamp="1599029984919" />
+    <state width="1815" height="364" key="GridCell.Tab.1.left" timestamp="1599029984919">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="364" key="GridCell.Tab.1.left/0.0.1858.1080@0.0.1858.1080" timestamp="1599029984919" />
+    <state width="1815" height="364" key="GridCell.Tab.1.right" timestamp="1599029984919">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="364" key="GridCell.Tab.1.right/0.0.1858.1080@0.0.1858.1080" timestamp="1599029984919" />
+    <state width="1815" height="364" key="GridCell.Tab.2.bottom" timestamp="1599029984919">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="364" key="GridCell.Tab.2.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1599029984919" />
+    <state width="1815" height="364" key="GridCell.Tab.2.center" timestamp="1599029984919">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="364" key="GridCell.Tab.2.center/0.0.1858.1080@0.0.1858.1080" timestamp="1599029984919" />
+    <state width="1815" height="364" key="GridCell.Tab.2.left" timestamp="1599029984919">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="364" key="GridCell.Tab.2.left/0.0.1858.1080@0.0.1858.1080" timestamp="1599029984919" />
+    <state width="1815" height="364" key="GridCell.Tab.2.right" timestamp="1599029984919">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="364" key="GridCell.Tab.2.right/0.0.1858.1080@0.0.1858.1080" timestamp="1599029984919" />
+    <state x="430" y="185" key="SettingsEditor" timestamp="1598964516370">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="430" y="185" key="SettingsEditor/0.0.1858.1080@0.0.1858.1080" timestamp="1598964516370" />
+    <state x="447" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog" timestamp="1598964379130">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="447" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1598964379130" />
+    <state x="592" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1598963957913">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="592" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1598963957913" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/model/articlesManager.php</url>
+          <line>23</line>
+          <properties>
+            <option name="className" value="" />
+            <option name="methodName" value="\getArticle" />
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/controller/articles.php</url>
+          <line>23</line>
+          <properties>
+            <option name="className" value="" />
+            <option name="methodName" value="\displayAnArticle" />
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+=======
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="540" y="194" key="#CLI_Interpreters" timestamp="1598428934643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="194" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1598428934643" />
+    <state x="667" y="182" key="#PHP" timestamp="1598428937485">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="182" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1598428937485" />
+    <state x="414" y="175" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598428914130">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598428914130" />
+    <state width="1340" height="266" key="GridCell.Tab.0.bottom" timestamp="1598431047887">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598431047887" />
+    <state width="1340" height="266" key="GridCell.Tab.0.center" timestamp="1598431047887">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598431047887" />
+    <state width="1340" height="266" key="GridCell.Tab.0.left" timestamp="1598431047887">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598431047887" />
+    <state width="1340" height="266" key="GridCell.Tab.0.right" timestamp="1598431047887">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598431047887" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1598429037799">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598429037799" />
+>>>>>>> 7b1c2662fb4eab8086282550759bfd5fb69bf6f5
+  </component>
+</project>

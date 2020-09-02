@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body class="goto-here">
+  <body class="goto-here " style="text-align: center">
 		<div class="py-1 bg-primary">
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
@@ -95,7 +95,7 @@
     <!-- END nav -->
 
 
-<div class="center">
+<div class="center" style=" align-content: center">
     <?=$content ?>
 </div>
 

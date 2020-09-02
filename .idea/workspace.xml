@@ -8,9 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,26 +22,27 @@
   <component name="ProjectId" id="1btOUGA9SX5ry2Qixv1zmr09M2a" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RunManager">
     <configuration name="Webmaster" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8080">
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -58,33 +57,48 @@
       <workItem from="1589897712119" duration="29000" />
       <workItem from="1590652391734" duration="677000" />
       <workItem from="1590653071350" duration="119000" />
+
       <workItem from="1590653433764" duration="7194000" />
       <workItem from="1591738853326" duration="615000" />
       <workItem from="1593463331635" duration="665000" />
       <workItem from="1597451770594" duration="240000" />
+
+      <workItem from="1590653433764" duration="5707000" />
+      <workItem from="1591255283457" duration="661000" />
+      <workItem from="1591257454596" duration="654000" />
+      <workItem from="1598357936650" duration="1476000" />
+      <workItem from="1598422241461" duration="132000" />
+      <workItem from="1598424246723" duration="1136000" />
+      <workItem from="1598428810028" duration="11000" />
+
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="781" y="386" key="#CLI_Interpreters" timestamp="1589448880250">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="523" y="201" key="#CLI_Interpreters" timestamp="1598422370790">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="781" y="386" key="#CLI_Interpreters/0.0.2560.1440@0.0.2560.1440" timestamp="1589448880250" />
-    <state x="906" y="286" width="585" height="890" key="#PHP" timestamp="1589448882469">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="523" y="201" key="#CLI_Interpreters/0.0.1858.1080@0.0.1858.1080" timestamp="1598422370790" />
+    <state x="540" y="194" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1598358745044" />
+    <state x="667" y="182" key="#PHP" timestamp="1598358747512">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="906" y="286" width="585" height="890" key="#PHP/0.0.2560.1440@0.0.2560.1440" timestamp="1589448882469" />
-    <state x="641" y="386" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589448885083">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="667" y="182" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1598358747512" />
+    <state x="401" y="182" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598422255030">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="641" y="386" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1589448885083" />
-    <state x="1103" y="565" key="FileChooserDialogImpl" timestamp="1590653159790">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="401" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1598422255030" />
+    <state x="414" y="175" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598358750199" />
+    <state x="800" y="424" key="FileChooserDialogImpl" timestamp="1598428819552">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
+    <state x="800" y="424" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1598428819552" />
+    <state x="827" y="408" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598358455418" />
     <state x="1103" y="565" key="FileChooserDialogImpl/0.0.2560.1440@0.0.2560.1440" timestamp="1590653159790" />
+
     <state width="1519" height="485" key="GridCell.Tab.0.bottom" timestamp="1590672522442">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -146,6 +160,40 @@
     </state>
     <state x="568" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1589897713671" />
     <state x="757" y="479" key="com.intellij.ide.util.TipDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1597452009056" />
+
+    <state width="1340" height="266" key="GridCell.Tab.0.bottom" timestamp="1598365963179">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591257433899" />
+    <state width="1340" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598365963179" />
+    <state width="1418" height="386" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1590660203611" />
+    <state width="1340" height="266" key="GridCell.Tab.0.center" timestamp="1598365963179">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591257433899" />
+    <state width="1340" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598365963179" />
+    <state width="1418" height="386" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1590660203611" />
+    <state width="1340" height="266" key="GridCell.Tab.0.left" timestamp="1598365963179">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591257433899" />
+    <state width="1340" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598365963179" />
+    <state width="1418" height="386" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1590660203610" />
+    <state width="1340" height="266" key="GridCell.Tab.0.right" timestamp="1598365963179">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591257433899" />
+    <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598365963179" />
+    <state width="1418" height="386" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1590660203611" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1598422371962">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1858.1080@0.0.1858.1080" timestamp="1598422371962" />
+    <state x="568" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1591257466426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="568" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591257466426" />
+
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
