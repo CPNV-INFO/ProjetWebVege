@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fa50552-d06c-40b8-abe7-a3465bae6211" name="Default Changelist" comment="" />
+    <list default="true" id="eb5fb63c-589a-4341-ae3d-6ea525d2a4ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/.idea.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Projet-Web-BDD.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ProjetWebBdd.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ProjetWebVege.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProjetWebVege.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/updateWebSite.sh" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,63 +26,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpServers">
-    <servers>
-      <server host="localhost" id="bcfd9318-5621-46f8-849c-8b370ae6c63c" name="localhost" port="8080" />
-    </servers>
-  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectId" id="1btOUGA9SX5ry2Qixv1zmr09M2a" />
+  <component name="ProjectId" id="1hEB8yBer44XJmw2A0yxDhzmdZg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RunManager">
-    <configuration name="Webmaster" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8080">
+    <configuration name="ProjWEBVEGEBIS" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8080">
       <method v="2" />
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7fa50552-d06c-40b8-abe7-a3465bae6211" name="Default Changelist" comment="" />
-      <created>1589447936677</created>
+      <changelist id="eb5fb63c-589a-4341-ae3d-6ea525d2a4ba" name="Default Changelist" comment="" />
+      <created>1599566216435</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1589447936677</updated>
-      <workItem from="1589447938059" duration="1254000" />
-      <workItem from="1589897712119" duration="29000" />
-      <workItem from="1590652391734" duration="677000" />
-      <workItem from="1590653071350" duration="119000" />
-      <workItem from="1590653433764" duration="5707000" />
-      <workItem from="1591255283457" duration="661000" />
-      <workItem from="1591257454596" duration="654000" />
-<<<<<<< HEAD
-      <workItem from="1598357936650" duration="1476000" />
-      <workItem from="1598422241461" duration="132000" />
-      <workItem from="1598424246723" duration="1136000" />
-      <workItem from="1598428810028" duration="11000" />
-=======
-      <workItem from="1598357866725" duration="435000" />
-      <workItem from="1598358419343" duration="2153000" />
-      <workItem from="1598422558905" duration="673000" />
->>>>>>> 7b1c2662fb4eab8086282550759bfd5fb69bf6f5
+      <updated>1599566216435</updated>
+      <workItem from="1599566218015" duration="114000" />
     </task>
     <servers />
   </component>
@@ -77,164 +58,17 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-<<<<<<< HEAD
-    <state x="523" y="201" key="#CLI_Interpreters" timestamp="1598422370790">
+    <state x="636" y="202" key="#PHP" timestamp="1599566279342">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="523" y="201" key="#CLI_Interpreters/0.0.1858.1080@0.0.1858.1080" timestamp="1598422370790" />
-    <state x="540" y="194" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1598358745044" />
-    <state x="667" y="182" key="#PHP" timestamp="1598358747512">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="667" y="182" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1598358747512" />
-    <state x="401" y="182" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598422255030">
+    <state x="636" y="202" key="#PHP/0.0.1858.1080@0.0.1858.1080" timestamp="1599566279342" />
+    <state x="383" y="195" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599566282695">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="401" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1598422255030" />
-    <state x="414" y="175" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598358750199" />
-    <state x="800" y="424" key="FileChooserDialogImpl" timestamp="1598428819552">
+    <state x="383" y="195" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1599566282695" />
+    <state x="430" y="185" key="SettingsEditor" timestamp="1599566331402">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="800" y="424" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1598428819552" />
-    <state x="827" y="408" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598358455418" />
-=======
-    <state x="936" y="249" key="#CLI_Interpreters" timestamp="1598422598283">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="936" y="249" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1598422598283" />
-    <state x="667" y="182" key="#PHP" timestamp="1598358742350">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="667" y="182" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1598358742350" />
-    <state x="414" y="175" width="1092" height="804" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598360205046">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="175" width="1092" height="804" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598360205046" />
-    <state x="827" y="408" key="FileChooserDialogImpl" timestamp="1598428814681">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="827" y="408" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598428814681" />
->>>>>>> 7b1c2662fb4eab8086282550759bfd5fb69bf6f5
-    <state x="1103" y="565" key="FileChooserDialogImpl/0.0.2560.1440@0.0.2560.1440" timestamp="1590653159790" />
-    <state width="1340" height="266" key="GridCell.Tab.0.bottom" timestamp="1598365963179">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591257433899" />
-    <state width="1340" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598365963179" />
-    <state width="1418" height="386" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1590660203611" />
-    <state width="1340" height="266" key="GridCell.Tab.0.center" timestamp="1598365963179">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591257433899" />
-    <state width="1340" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598365963179" />
-    <state width="1418" height="386" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1590660203611" />
-    <state width="1340" height="266" key="GridCell.Tab.0.left" timestamp="1598365963179">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591257433899" />
-    <state width="1340" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598365963179" />
-    <state width="1418" height="386" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1590660203610" />
-    <state width="1340" height="266" key="GridCell.Tab.0.right" timestamp="1598365963179">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591257433899" />
-    <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598365963179" />
-    <state width="1418" height="386" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1590660203611" />
-<<<<<<< HEAD
-    <state x="461" y="165" key="SettingsEditor" timestamp="1598422371962">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1858.1080@0.0.1858.1080" timestamp="1598422371962" />
-=======
-    <state x="461" y="165" key="SettingsEditor" timestamp="1598422600545">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598422600545" />
->>>>>>> 7b1c2662fb4eab8086282550759bfd5fb69bf6f5
-    <state x="568" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1591257466426">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="568" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591257466426" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php-line-method">
-          <url>file://$PROJECT_DIR$/src/controller/articles.php</url>
-          <line>12</line>
-          <properties>
-            <option name="className" value="" />
-            <option name="methodName" value="\displayArticles" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php-line-method">
-          <url>file://$PROJECT_DIR$/src/model/articlesManager.php</url>
-          <line>14</line>
-          <properties>
-            <option name="className" value="" />
-            <option name="methodName" value="\getArticles" />
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php-line-method">
-          <url>file://$PROJECT_DIR$/src/model/dbConnector.php</url>
-          <line>55</line>
-          <properties>
-            <option name="className" value="" />
-            <option name="methodName" value="\openDBConnexion" />
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php-line-method">
-          <url>file://$PROJECT_DIR$/src/model/dbConnector.php</url>
-          <line>16</line>
-          <properties>
-            <option name="className" value="" />
-            <option name="methodName" value="\executeQuerySelect" />
-          </properties>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/controller/articles.php</url>
-          <line>14</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/controller/articles.php</url>
-          <line>15</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/controller/articles.php</url>
-          <line>17</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/controller/articles.php</url>
-          <line>18</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/controller/articles.php</url>
-          <line>20</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/view/articles.php</url>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/model/articlesManager.php</url>
-          <line>17</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/model/articlesManager.php</url>
-          <line>19</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="430" y="185" key="SettingsEditor/0.0.1858.1080@0.0.1858.1080" timestamp="1599566331402" />
   </component>
 </project>
