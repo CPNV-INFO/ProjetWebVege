@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb5fb63c-589a-4341-ae3d-6ea525d2a4ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea/.idea.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Projet-Web-BDD.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ProjetWebBdd.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ProjetWebVege.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProjetWebVege.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/updateWebSite.sh" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +39,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599566216435</updated>
-      <workItem from="1599566218015" duration="114000" />
+      <workItem from="1599566218015" duration="1583000" />
     </task>
     <servers />
   </component>
@@ -66,6 +55,22 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="383" y="195" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1599566282695" />
+    <state width="1815" height="295" key="GridCell.Tab.0.bottom" timestamp="1599571442854">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="295" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1599571442854" />
+    <state width="1815" height="295" key="GridCell.Tab.0.center" timestamp="1599571442854">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="295" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1599571442854" />
+    <state width="1815" height="295" key="GridCell.Tab.0.left" timestamp="1599571442854">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="295" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1599571442854" />
+    <state width="1815" height="295" key="GridCell.Tab.0.right" timestamp="1599571442854">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="295" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1599571442854" />
     <state x="430" y="185" key="SettingsEditor" timestamp="1599566331402">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
