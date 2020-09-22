@@ -7,7 +7,7 @@
  * @version   13-APR-2020
  */
 
-$title = "Rent A Snow - Snows";
+$title = "VegeFoods";
 
 ob_start();
 $rows = 0; // Column count
