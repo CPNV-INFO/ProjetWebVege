@@ -14,7 +14,7 @@ function displayArticles()
 {
     require_once "model/articlesManager.php";
     try {
-        $snowsResults = getArticles();
+        $vegeResults = getArticles();
     } catch (ModelDataBaseException $ex) {
         $articleErrorMessage = "Nous rencontrons temporairement un problème technique pour afficher nos produits. Désolé du dérangement !";
     } finally {
@@ -25,7 +25,7 @@ function displayAnArticle($article)
 {
     require_once "model/articlesManager.php";
     try {
-        $snowsResults = getArticle($article);
+        $vegeResults = getArticle($article);
     } catch (ModelDataBaseException $ex) {
         $articleErrorMessage = "Nous rencontrons temporairement un problème technique pour afficher nos produits. Désolé du dérangement !";
     } finally {
