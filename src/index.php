@@ -18,8 +18,11 @@ if (isset($_GET['action'])) {
         case 'displayArticles' :
             displayArticles();
             break;
+        case 'displayArticlesFilter' :
+            displayArticlesFilter($_GET['filter']);
+            break;
         case 'displayAnArticle' :
-            displayAnArticle($_GET['code']);
+            displayAnArticle($_GET['name'],$_GET['origin']);
             break;
         case 'home' :
             home();

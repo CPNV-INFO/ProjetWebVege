@@ -12,6 +12,7 @@
  */
 function displayArticles()
 {
+    $_SESSION['Selection'] = "";
     require_once "model/articlesManager.php";
     try {
         $vegeResults = getArticles();
@@ -21,11 +22,26 @@ function displayArticles()
         require "view/articles.php";
     }
 }
-function displayAnArticle($article)
+/**
+ * @brief This function is designed to display Articles
+ */
+function displayArticlesFilter($filerCondition)
+{
+    $_SESSION['Selection'] = $filerCondition;
+    require_once "model/articlesManager.php";
+    try {
+        $vegeResults = getArticleFilter($filerCondition);
+    } catch (ModelDataBaseException $ex) {
+        $articleErrorMessage = "Nous rencontrons temporairement un problème technique pour afficher nos produits. Désolé du dérangement !";
+    } finally {
+        require "view/articles.php";
+    }
+}
+function displayAnArticle($articleName,$origin)
 {
     require_once "model/articlesManager.php";
     try {
-        $vegeResults = getArticle($article);
+        $vegeResults = getArticle($articleName,$origin);
     } catch (ModelDataBaseException $ex) {
         $articleErrorMessage = "Nous rencontrons temporairement un problème technique pour afficher nos produits. Désolé du dérangement !";
     } finally {

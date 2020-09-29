@@ -12,7 +12,11 @@ $title = "VegeFoods";
 ob_start();
 $rows = 0; // Column count
 ?>
-
+<style>
+    .img-fluid{
+        height: 280px;
+    }
+</style>
     <div class="hero-wrap hero-bread" style="background-image: url('images/bg_1.jpg');">
         <div class="container">
             <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -29,17 +33,19 @@ $rows = 0; // Column count
             <div class="row justify-content-center">
                 <div class="col-md-10 mb-5 text-center">
                     <ul class="product-category">
-                        <li><a href="#" class="active">All</a></li>
-                        <li><a href="#">Vegetables</a></li>
-                        <li><a href="#">Fruits</a></li>
-                    </ul>
+                        <li><a href="index.php?action=displayArticles" <?php if($_SESSION['Selection']=="") : ?> class="active" <?php endif;?>>All</a></li>
+                        <li><a href="index.php?action=displayArticlesFilter&filter=Vegeta" <?php if($_SESSION['Selection']=="Vegeta") : ?> class="active" <?php endif;?>>Vegetables</a></li>
+                        <li><a href="index.php?action=displayArticlesFilter&filter=Fruit"<?php if($_SESSION['Selection']=="Fruit") : ?> class="active" <?php endif;?>>Fruits</a></li>
+                        <li><a href="index.php?action=displayArticlesFilter&filter=Verdure"<?php if($_SESSION['Selection']=="Verdure") : ?> class="active" <?php endif;?>>Verdure</a></li>
+                        <li><a href="index.php?action=displayArticlesFilter&filter=Other"<?php if($_SESSION['Selection']=="Other") : ?> class="active" <?php endif;?>>Other</a></li>
+                       </ul>
                 </div>
             </div>
             <div class="row">
                 <?php foreach ($vegeResults as $item) : ?>
                 <div class="col-md-6 col-lg-3 ftco-animate">
                     <div class="product">
-                        <a href="#" class="img-prod"><img class="img-fluid" src="<?=$item['photo']?>" alt="Colorlib Template">
+                        <a href="index.php?action=displayAnArticle&name=<?=$item['name']?>&origin=<?=$item['origin']?>" class="img-prod"><img class="img-fluid"  src="<?php $_FILES[$item->id]['temp'] ='c:/ProjetWebVege/src/'.$item['photo']; if($_FILES['image']['name'] == ""){echo $item['photo'];}else echo ""?>"  alt="No image">
                             <span class="status">30%</span>
                             <div class="overlay"></div>
                         </a>
@@ -105,7 +111,9 @@ $rows = 0; // Column count
             </div>
         </div>
     </section>
+<script>
 
+</script>
 <?php
 $content = ob_get_clean();
 require 'gabarit.php';

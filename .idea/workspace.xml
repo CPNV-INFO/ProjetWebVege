@@ -21,7 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="eb5fb63c-589a-4341-ae3d-6ea525d2a4ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/databaseStartScript.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/articles.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/articles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/articlesManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/articlesManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/article.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/articles.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/articles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/content/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/content/blog-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/blog-single.html" afterDir="false" />
@@ -30,229 +35,8 @@
       <change beforePath="$PROJECT_DIR$/src/view/content/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/checkout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/content/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/content/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/content/product-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/product-single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/content/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/content/product-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/product-single.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/content/wishlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/wishlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/gabarit.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/gabarit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/._vegefoods" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/._about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/._blog-single.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/._blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/._contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/._css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/._fonts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/._images" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/._index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/._js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/._scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/css/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/css/._ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/css/._animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/css/._aos.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/css/._bootstrap-datepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/css/._bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/css/._css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/css/._flaticon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/css/._icomoon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/css/._ionicons.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/css/._jquery.timepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/css/._magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/css/._open-iconic-bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/css/._owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/css/._owl.theme.default.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/css/._style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/css/bootstrap/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/css/css/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/css/css/._bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/css/css/._mixins" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/css/css/mixins/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/css/css/mixins/.__text-hide.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/._flaticon" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/._icomoon" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/._ionicons" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/._open-iconic" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/flaticon/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/flaticon/._backup.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/flaticon/._font" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/flaticon/._license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/flaticon/font/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/flaticon/font/._Flaticon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/flaticon/font/._Flaticon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/flaticon/font/._Flaticon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/flaticon/font/._Flaticon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/flaticon/font/._Flaticon.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/flaticon/font/.__flaticon.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/flaticon/font/._flaticon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/flaticon/font/._flaticon.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/flaticon/license/._license.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/icomoon/._icomoon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/icomoon/._icomoon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/icomoon/._icomoon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/icomoon/._icomoon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/ionicons/._css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/ionicons/._fonts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/ionicons/css/.__ionicons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/ionicons/css/._ionicons.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/ionicons/fonts/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/ionicons/fonts/._ionicons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/ionicons/fonts/._ionicons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/ionicons/fonts/._ionicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/ionicons/fonts/._ionicons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/ionicons/fonts/._ionicons.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/open-iconic/._open-iconic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/open-iconic/._open-iconic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/open-iconic/._open-iconic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/open-iconic/._open-iconic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/fonts/open-iconic/._open-iconic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._about.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._bg_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._bg_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._bg_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._category-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._category-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._category-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._category-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._category.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._image_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._image_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._image_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._image_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._image_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._image_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._partner-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._partner-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._partner-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._partner-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._partner-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._person_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._person_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._person_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._person_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._product-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._product-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._product-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._product-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._product-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._product-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._product-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._product-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._product-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._product-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._product-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/images/._product-9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/js/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/js/._aos.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/js/._bootstrap-datepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/js/._bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/js/._google-map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/js/._jquery-3.2.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/js/._jquery-migrate-3.0.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/js/._jquery.animateNumber.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/js/._jquery.easing.1.3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/js/._jquery.magnific-popup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/js/._jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/js/._jquery.stellar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/js/._jquery.waypoints.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/js/._main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/js/._owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/js/._popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/js/._scrollax.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/._bootstrap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/._style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__alert.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__badge.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__breadcrumb.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__button-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__card.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__carousel.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__close.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__code.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__custom-forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__dropdown.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__functions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__images.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__input-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__jumbotron.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__list-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__media.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__modal.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__nav.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__navbar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__popover.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__print.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__progress.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__reboot.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__root.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__spinners.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__tables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__toasts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__tooltip.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__transitions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__type.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__utilities.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/.__variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/._bootstrap-grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/._bootstrap-reboot.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/._bootstrap.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/._mixins" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/._utilities" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__alert.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__background-variant.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__badge.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__border-radius.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__box-shadow.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__breakpoints.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__caret.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__clearfix.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__float.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__gradients.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__grid-framework.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__hover.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__image.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__list-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__lists.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__nav-divider.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__reset-text.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__resize.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__screen-reader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__size.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__table-row.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__text-emphasis.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__text-hide.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__text-truncate.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__transition.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/mixins/.__visibility.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/utilities/.__align.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/utilities/.__background.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/utilities/.__borders.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/utilities/.__clearfix.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/utilities/.__display.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/utilities/.__embed.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/utilities/.__flex.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/utilities/.__float.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/utilities/.__overflow.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/utilities/.__position.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/utilities/.__screenreaders.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/utilities/.__shadows.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/utilities/.__sizing.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/utilities/.__spacing.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/utilities/.__text.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegefoods/__MACOSX/vegefoods/scss/bootstrap/utilities/.__visibility.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,7 +91,9 @@
       <option name="presentableId" value="Default" />
       <updated>1599566216435</updated>
       <workItem from="1599566218015" duration="1583000" />
-      <workItem from="1600777016719" duration="3700000" />
+      <workItem from="1600777016719" duration="4128000" />
+      <workItem from="1600841137583" duration="8006000" />
+      <workItem from="1601379135341" duration="6163000" />
     </task>
     <servers />
   </component>
@@ -339,76 +125,81 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="383" y="195" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1599566282695" />
-    <state width="1875" height="363" key="GridCell.Tab.0.bottom" timestamp="1600780280438">
+    <state width="445" height="466" key="DebuggerActiveHint" timestamp="1601384283212">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="445" height="466" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1601384283212" />
+    <state width="934" height="146" key="GridCell.Tab.0.bottom" timestamp="1601385221048">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1815" height="295" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1599571442854" />
-    <state width="1875" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600780280438" />
-    <state width="1875" height="363" key="GridCell.Tab.0.center" timestamp="1600780280438">
+    <state width="934" height="146" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1601385221048" />
+    <state width="934" height="146" key="GridCell.Tab.0.center" timestamp="1601385221047">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1815" height="295" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1599571442854" />
-    <state width="1875" height="363" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600780280438" />
-    <state width="1875" height="363" key="GridCell.Tab.0.left" timestamp="1600780280438">
+    <state width="934" height="146" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1601385221047" />
+    <state width="934" height="146" key="GridCell.Tab.0.left" timestamp="1601385221047">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1815" height="295" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1599571442854" />
-    <state width="1875" height="363" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600780280438" />
-    <state width="1875" height="363" key="GridCell.Tab.0.right" timestamp="1600780280438">
+    <state width="934" height="146" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1601385221047" />
+    <state width="934" height="146" key="GridCell.Tab.0.right" timestamp="1601385221048">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1815" height="295" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1599571442854" />
-    <state width="1875" height="363" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600780280438" />
-    <state width="1875" height="363" key="GridCell.Tab.1.bottom" timestamp="1600780280439">
+    <state width="934" height="146" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1601385221048" />
+    <state width="934" height="146" key="GridCell.Tab.1.bottom" timestamp="1601385221049">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600780280439" />
-    <state width="1875" height="363" key="GridCell.Tab.1.center" timestamp="1600780280438">
+    <state width="934" height="146" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1601385221049" />
+    <state width="934" height="146" key="GridCell.Tab.1.center" timestamp="1601385221049">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="363" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600780280438" />
-    <state width="1875" height="363" key="GridCell.Tab.1.left" timestamp="1600780280438">
+    <state width="934" height="146" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1601385221049" />
+    <state width="934" height="146" key="GridCell.Tab.1.left" timestamp="1601385221049">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="363" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600780280438" />
-    <state width="1875" height="363" key="GridCell.Tab.1.right" timestamp="1600780280438">
+    <state width="934" height="146" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1601385221049" />
+    <state width="934" height="146" key="GridCell.Tab.1.right" timestamp="1601385221049">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="363" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600780280438" />
-    <state width="1875" height="363" key="GridCell.Tab.2.bottom" timestamp="1600780280439">
+    <state width="934" height="146" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1601385221049" />
+    <state width="934" height="146" key="GridCell.Tab.2.bottom" timestamp="1601385221050">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="363" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600780280439" />
-    <state width="1875" height="363" key="GridCell.Tab.2.center" timestamp="1600780280439">
+    <state width="934" height="146" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1601385221050" />
+    <state width="934" height="146" key="GridCell.Tab.2.center" timestamp="1601385221050">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="363" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600780280439" />
-    <state width="1875" height="363" key="GridCell.Tab.2.left" timestamp="1600780280439">
+    <state width="934" height="146" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1601385221050" />
+    <state width="934" height="146" key="GridCell.Tab.2.left" timestamp="1601385221049">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="363" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600780280439" />
-    <state width="1875" height="363" key="GridCell.Tab.2.right" timestamp="1600780280439">
+    <state width="934" height="146" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1601385221049" />
+    <state width="934" height="146" key="GridCell.Tab.2.right" timestamp="1601385221050">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="363" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600780280439" />
+    <state width="934" height="146" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1601385221050" />
     <state x="430" y="185" key="SettingsEditor" timestamp="1599566331402">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="430" y="185" key="SettingsEditor/0.0.1858.1080@0.0.1858.1080" timestamp="1599566331402" />
-    <state x="571" y="0" width="1057" height="747" key="dock-window-1" timestamp="1600778466492">
+    <state x="203" y="211" width="728" height="747" key="dock-window-1" timestamp="1601384988452">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="571" y="0" width="1057" height="747" key="dock-window-1/0.0.1920.1080@0.0.1920.1080" timestamp="1600778466492" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/index.php</url>
-          <line>18</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="203" y="211" width="728" height="747" key="dock-window-1/0.0.1920.1080@0.0.1920.1080" timestamp="1601384988452" />
+    <state x="973" y="540" width="954" height="547" key="dock-window-2" timestamp="1601381076976">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="973" y="540" width="954" height="547" key="dock-window-2/0.0.1920.1080@0.0.1920.1080" timestamp="1601381076976" />
+    <state x="244" y="309" width="954" height="547" key="dock-window-3" timestamp="1601384649625">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="244" y="309" width="954" height="547" key="dock-window-3/0.0.1920.1080@0.0.1920.1080" timestamp="1601384649625" />
+    <state x="973" y="687" width="954" height="400" key="dock-window-4" timestamp="1601384988452">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="973" y="687" width="954" height="400" key="dock-window-4/0.0.1920.1080@0.0.1920.1080" timestamp="1601384988452" />
   </component>
 </project>

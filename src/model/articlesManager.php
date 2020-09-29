@@ -21,10 +21,19 @@ function getArticles()
 
     return executeQuerySelect($snowsQuery);
 }
-function getArticle($article)
+function getArticle($articleName,$origine)
 {
 
-    $snowsQuery = "SELECT id, name, origin, variety, color, description, photo,price FROM vege where name = '$article' ";
+    $snowsQuery = "SELECT id, name, origin, variety, color, description, photo,price FROM vege where name = '$articleName' and origin = '$origine'; ";
+
+    require_once 'model/dbConnector.php';
+
+    return executeQuerySelect($snowsQuery);
+}
+function getArticleFilter($article)
+{
+
+    $snowsQuery = "SELECT id, name, origin, variety, color, description, photo,price FROM vege where category = '$article' ";
 
     require_once 'model/dbConnector.php';
 
