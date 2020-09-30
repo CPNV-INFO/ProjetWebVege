@@ -45,7 +45,7 @@ $rows = 0; // Column count
                 <?php foreach ($vegeResults as $item) : ?>
                 <div class="col-md-6 col-lg-3 ftco-animate">
                     <div class="product">
-                        <a href="index.php?action=displayAnArticle&name=<?=$item['name']?>&origin=<?=$item['origin']?>" class="img-prod"><img class="img-fluid"  src="<?php $_FILES[$item->id]['temp'] ='c:/ProjetWebVege/src/'.$item['photo']; if($_FILES['image']['name'] == ""){echo $item['photo'];}else echo ""?>"  alt="No image">
+                        <a href="index.php?action=displayAnArticle&name=<?=$item['name']?>&origin=<?=$item['origin']?>" class="img-prod"><img class="img-fluid"  src="<?php if(file_exists($item['photo'])) echo $item['photo'] ; else  echo "view/content/images/pictureNoFound.jpg";?>"  alt="No image">
                             <span class="status">30%</span>
                             <div class="overlay"></div>
                         </a>
