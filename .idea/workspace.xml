@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eb5fb63c-589a-4341-ae3d-6ea525d2a4ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chris regarde ici/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +59,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ProjetWebVege\Chris regarde ici" />
       <recent name="C:\ProjetWebVege\src\view" />
       <recent name="C:\ProjetWebVege\src" />
       <recent name="C:\ProjetWebVege" />
@@ -82,7 +83,7 @@
       <workItem from="1600777016719" duration="4128000" />
       <workItem from="1600841137583" duration="8006000" />
       <workItem from="1601379135341" duration="6553000" />
-      <workItem from="1601447478394" duration="2491000" />
+      <workItem from="1601447478394" duration="5376000" />
     </task>
     <servers />
   </component>
@@ -118,30 +119,30 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="445" height="466" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1601384283212" />
-    <state width="1877" height="122" key="GridCell.Tab.0.bottom" timestamp="1601447452977">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1875" height="201" key="GridCell.Tab.0.bottom" timestamp="1601456246496">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1815" height="295" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1599571442854" />
     <state width="1877" height="122" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601447452977" />
-    <state width="934" height="146" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1601385221048" />
-    <state width="1877" height="122" key="GridCell.Tab.0.center" timestamp="1601447452977">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1875" height="201" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1601456246496" />
+    <state width="1875" height="201" key="GridCell.Tab.0.center" timestamp="1601456246496">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1815" height="295" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1599571442854" />
     <state width="1877" height="122" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601447452977" />
-    <state width="934" height="146" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1601385221047" />
-    <state width="1877" height="122" key="GridCell.Tab.0.left" timestamp="1601447452977">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1875" height="201" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1601456246496" />
+    <state width="1875" height="201" key="GridCell.Tab.0.left" timestamp="1601456246496">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1815" height="295" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1599571442854" />
     <state width="1877" height="122" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601447452977" />
-    <state width="934" height="146" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1601385221047" />
-    <state width="1877" height="122" key="GridCell.Tab.0.right" timestamp="1601447452977">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1875" height="201" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1601456246496" />
+    <state width="1875" height="201" key="GridCell.Tab.0.right" timestamp="1601456246496">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1815" height="295" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1599571442854" />
     <state width="1877" height="122" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601447452977" />
-    <state width="934" height="146" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1601385221048" />
+    <state width="1875" height="201" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1601456246496" />
     <state width="934" height="146" key="GridCell.Tab.1.bottom" timestamp="1601385221049">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -182,17 +183,17 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="953" y="0" width="974" height="1087" key="dock-window-1/0.0.1920.1080@0.0.1920.1080" timestamp="1601449973489" />
-    <state x="-7" y="0" width="974" height="1087" key="dock-window-2" timestamp="1601449300199">
+    <state x="-7" y="0" width="974" height="1087" key="dock-window-2" timestamp="1601453973109">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="-7" y="0" width="974" height="1087" key="dock-window-2/0.0.1920.1080@0.0.1920.1080" timestamp="1601449300199" />
+    <state x="-7" y="0" width="974" height="1087" key="dock-window-2/0.0.1920.1080@0.0.1920.1080" timestamp="1601453973109" />
     <state x="244" y="309" width="954" height="547" key="dock-window-3" timestamp="1601384649625">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="244" y="309" width="954" height="547" key="dock-window-3/0.0.1920.1080@0.0.1920.1080" timestamp="1601384649625" />
-    <state x="991" y="608" width="954" height="400" key="dock-window-4" timestamp="1601448956068">
+    <state x="801" y="393" width="954" height="400" key="dock-window-4" timestamp="1601453973109">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="991" y="608" width="954" height="400" key="dock-window-4/0.0.1920.1080@0.0.1920.1080" timestamp="1601448956068" />
+    <state x="801" y="393" width="954" height="400" key="dock-window-4/0.0.1920.1080@0.0.1920.1080" timestamp="1601453973109" />
   </component>
 </project>
