@@ -41,14 +41,18 @@ ob_start();
                             <input type="password" class="form-control" placeholder="password123" name="inputUserPsw" required>
                         </div>
                         <div class="row block-9" align="center">
-                            <div class="col-md-4 ">
+                            <div class="col-md-3 ">
                                 <input type="submit" value="log in" class="btn btn-primary py-3 px-5">
                             </div>
-                            <div class="col-md-4 ce">
+                            <div class="col-md-3 ce">
                                 <input type="reset" class="btn btn-primary py-3 px-5" placeholder="Subject">
                             </div>
-                            <div class="col-md-4 ce">
+                            <div class="col-md-3 ce">
                                 <a href="index.php?action=register"><input type="button" class="btn btn-primary py-3 px-5" value="register" placeholder="Subject"></a>
+                            </div>
+
+                            <div class=" col-md-3 ce py-3 px-5">
+                                <a href="index.php?action=register">Mot de passe oublié ?</a>
                             </div>
                         </div>
                     </form>
