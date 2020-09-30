@@ -19,25 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb5fb63c-589a-4341-ae3d-6ea525d2a4ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/databaseStartScript.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/articles.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/articles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/articlesManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/articlesManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/articles.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/articles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/content/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/content/blog-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/blog-single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/content/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/content/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/content/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/content/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/content/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/content/product-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/product-single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/content/wishlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/wishlist.html" afterDir="false" />
-    </list>
+    <list default="true" id="eb5fb63c-589a-4341-ae3d-6ea525d2a4ba" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +75,7 @@
       <workItem from="1599566218015" duration="1583000" />
       <workItem from="1600777016719" duration="4128000" />
       <workItem from="1600841137583" duration="8006000" />
-      <workItem from="1601379135341" duration="6163000" />
+      <workItem from="1601379135341" duration="6553000" />
     </task>
     <servers />
   </component>
@@ -197,9 +179,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="244" y="309" width="954" height="547" key="dock-window-3/0.0.1920.1080@0.0.1920.1080" timestamp="1601384649625" />
-    <state x="973" y="687" width="954" height="400" key="dock-window-4" timestamp="1601384988452">
+    <state x="973" y="687" width="954" height="400" key="dock-window-4" timestamp="1601385694120">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="973" y="687" width="954" height="400" key="dock-window-4/0.0.1920.1080@0.0.1920.1080" timestamp="1601384988452" />
+    <state x="973" y="687" width="954" height="400" key="dock-window-4/0.0.1920.1080@0.0.1920.1080" timestamp="1601385694120" />
   </component>
 </project>
