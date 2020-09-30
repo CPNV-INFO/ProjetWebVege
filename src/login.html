@@ -100,18 +100,21 @@
             <form action="#" class="bg-white p-5 contact-form" method="POST" action="index.php?action=login">
               <div class="form-group">
                  <label for="inputUserEmail">Addresse e-mail</label>
-                <input type="email" class="form-control" placeholder="exemple@xyz.com" name="inputUserEmail" required>
+                <input type="email"  class="form-control" placeholder="exemple@xyz.com" name="inputUserEmailAddress" required>
               </div>
               <div class="form-group">
                   <label for="inputUserPsw">Mot de passe</label>
-                <input type="password" class="form-control" placeholder="123456" name="inputUserPsw" required>
+                <input type="password" class="form-control" placeholder="password123" name="inputUserPsw" required>
               </div>
                 <div class="row block-9" align="center">
-                    <div class="col-md-6 ">
+                    <div class="col-md-4 ">
                         <input type="submit" value="log in" class="btn btn-primary py-3 px-5">
                     </div>
-                    <div class="col-md-6 ce">
+                    <div class="col-md-4 ce">
                         <input type="reset" class="btn btn-primary py-3 px-5" placeholder="Subject">
+                    </div>
+                    <div class="col-md-4 ce">
+                        <a href="index.php?action=register"><input type="button" class="btn btn-primary py-3 px-5" value="register" placeholder="Subject"></a>
                     </div>
                 </div>
             </form>
