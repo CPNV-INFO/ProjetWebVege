@@ -50,7 +50,6 @@ ob_start();
                             <div class="col-md-3 ce">
                                 <a href="index.php?action=register"><input type="button" class="btn btn-primary py-3 px-5" value="register" placeholder="Subject"></a>
                             </div>
-
                             <div class=" col-md-3 ce py-3 px-5">
                                 <a href="index.php?action=register">Mot de passe oublié ?</a>
                             </div>
