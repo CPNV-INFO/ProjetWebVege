@@ -7,7 +7,7 @@
  * @version   13-APR-2020
  */
 
-$title = "VegeFoods";
+$title = "Shop";
 
 ob_start();
 $rows = 0; // Column count
@@ -21,7 +21,6 @@ $rows = 0; // Column count
         <div class="container">
             <div class="row no-gutters slider-text align-items-center justify-content-center">
                 <div class="col-md-9 ftco-animate text-center">
-                    <p class="breadcrumbs"><span class="mr-2"><a href="view/content/index.html">Home</a></span> <span>Products</span></p>
                     <h1 class="mb-0 bread">Products</h1>
                 </div>
             </div>
@@ -50,10 +49,10 @@ $rows = 0; // Column count
                             <div class="overlay"></div>
                         </a>
                         <div class="text py-3 pb-4 px-3 text-center">
-                            <h3><a href="#"><?=$item['name']?></a></h3>
+                            <h3><a href="index.php?action=displayAnArticle&name=<?=$item['name']?>&origin=<?=$item['origin']?>"><?=$item['name']?></a></h3>
                             <div class="d-flex">
                                 <div class="pricing">
-                                    <p class="price"><span class="mr-2 price-dc"><?=$item['price']?></span><span class="price-sale"><?=$item['price']?>CHF</span></p>
+                                    <p class="price"><span class="price-sale"><?=$item['price']?> CHF</span></p>
                                 </div>
                             </div>
                             <div class="bottom-area d-flex px-3">
@@ -75,21 +74,7 @@ $rows = 0; // Column count
                 <?php endforeach;?>
 
             </div>
-            <div class="row mt-5">
-                <div class="col text-center">
-                    <div class="block-27">
-                        <ul>
-                            <li><a href="#">&lt;</a></li>
-                            <li class="active"><span>1</span></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li><a href="#">&gt;</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </section>
 
