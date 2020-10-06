@@ -17,20 +17,6 @@ DROP DATABASE IF EXISTS `vege`;
 CREATE DATABASE IF NOT EXISTS `vege` /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 USE `vege`;
 
--- Listage de la structure de la table vege. users
-DROP TABLE IF EXISTS `users`;
-CREATE TABLE IF NOT EXISTS `users` (
-  `id` int unsigned NOT NULL AUTO_INCREMENT,
-  `userEmailAddress` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
-  `userHashPsw` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `userEmailAddress` (`userEmailAddress`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
--- Listage des données de la table vege.users : ~0 rows (environ)
-/*!40000 ALTER TABLE `users` DISABLE KEYS */;
-/*!40000 ALTER TABLE `users` ENABLE KEYS */;
-
 -- Listage de la structure de la table vege. vege
 DROP TABLE IF EXISTS `vege`;
 CREATE TABLE IF NOT EXISTS `vege` (
@@ -54,10 +40,10 @@ INSERT INTO `vege` (`id`, `name`, `origin`, `variety`, `color`, `description`, `
 	(3, 'Pomme', 'Suisse', 'Golden', 'Jaune', 'Pommes Golden Bio cultivé en Suisse avec le respect des normes écologique.', 'view/content/images/pomme-golden_small.jpg', 7.90, 'Fruit'),
 	(4, 'Pomme', 'France', 'La Gala', 'Rouge', 'Pommes Gala juteuse et sucrée.', 'view/content/images/pomme-lagala_small.jpg', 4.15, 'Fruit'),
 	(5, 'Orange', 'Tunisie', NULL, 'Orange', 'Oranges bio . ', 'view/content/images/orange_small.jpg', 6.00, 'Fruit'),
-	(6, 'Salade', 'Suisse', 'Batavia', 'Vert', 'Avec ses superbes feuilles soyeuses, la laitue Boston est délicieuse.', 'view/content/images/salade-batavia_small.jpg', 11.50, 'Plant'),
-	(7, 'Carotte', 'Portugal', NULL, 'Orange', 'Belle carottes provenant du Portugal, Culture Bio.', 'view/content/images/carotte_small.jpg', 9.10, 'Vegetal'),
-	(8, 'Pomme de terre', 'Suisse', NULL, 'Jaune', 'Pomme de terre Suisse, avec toute la qualité que cela implique.', 'view/content/images/pomme-de-terre_small.jpg', 8.40, 'Plant'),
-	(9, 'Champignons', 'France', NULL, 'Brun', 'Champignons des bois.', 'view/content/images/champignon_de_paris_small.jpg', 6.70, 'Vegetal'),
+	(6, 'Salade', 'Suisse', 'Batavia', 'Vert', 'Avec ses superbes feuilles soyeuses, la laitue Boston est délicieuse.', 'view/content/images/salade-batavia_small.jpg', 11.50, 'Vegeta'),
+	(7, 'Carotte', 'Portugal', NULL, 'Orange', 'Belle carottes provenant du Portugal, Culture Bio.', 'view/content/images/carotte_small.jpg', 9.10, 'Verdure'),
+	(8, 'Pomme de terre', 'Suisse', NULL, 'Jaune', 'Pomme de terre Suisse, avec toute la qualité que cela implique.', 'view/content/images/pomme-de-terre_small.jpg', 8.40, 'Vegeta'),
+	(9, 'Champignons', 'France', NULL, 'Brun', 'Champignons des bois.', 'view/content/images/champignon_de_paris_small.jpg', 6.70, 'Other'),
 	(10, 'Brocoli', 'Canada', NULL, 'Vert', 'Brocoli canadien, et tout le monde sait que le canada c est cool.', 'view/content/images/brocoli_small.jpg', 2.40, 'Vegetal');
 /*!40000 ALTER TABLE `vege` ENABLE KEYS */;
 
