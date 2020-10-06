@@ -13,12 +13,26 @@
 
 
 -- Listage de la structure de la base pour vege
-DROP DATABASE IF EXISTS `vege`;
 CREATE DATABASE IF NOT EXISTS `vege` /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 USE `vege`;
 
+-- Listage de la structure de la table vege. users
+CREATE TABLE IF NOT EXISTS `users` (
+  `id` int unsigned NOT NULL AUTO_INCREMENT,
+  `userEmailAddress` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `userHashPsw` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `userEmailAddress` (`userEmailAddress`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- Listage des données de la table vege.users : ~2 rows (environ)
+/*!40000 ALTER TABLE `users` DISABLE KEYS */;
+INSERT INTO `users` (`id`, `userEmailAddress`, `userHashPsw`) VALUES
+	(3, 'test@gmail.com', '$2y$10$HdOvIaM25jwbjCPMrcDqBOyoPvSBvIY3dI3OlPFfwQ7Rjwn3GF1/e'),
+	(4, 'gg@gmail.com', '$2y$10$ooBzk9SBdnSDOH7DMw.NauU3qWJz08vlLi5L1aKZ7WkdbATbU45ly');
+/*!40000 ALTER TABLE `users` ENABLE KEYS */;
+
 -- Listage de la structure de la table vege. vege
-DROP TABLE IF EXISTS `vege`;
 CREATE TABLE IF NOT EXISTS `vege` (
   `id` int NOT NULL AUTO_INCREMENT,
   `name` varchar(20) NOT NULL,
