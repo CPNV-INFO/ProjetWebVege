@@ -27,11 +27,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   UNIQUE KEY `userEmailAddress` (`userEmailAddress`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Listage des données de la table vege.users : ~2 rows (environ)
-/*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` (`id`, `userEmailAddress`, `userHashPsw`) VALUES
-	(3, 'test@gmail.com', '$2y$10$HdOvIaM25jwbjCPMrcDqBOyoPvSBvIY3dI3OlPFfwQ7Rjwn3GF1/e'),
-	(4, 'gg@gmail.com', '$2y$10$ooBzk9SBdnSDOH7DMw.NauU3qWJz08vlLi5L1aKZ7WkdbATbU45ly');
+
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 
 -- Listage de la structure de la table vege. vege
