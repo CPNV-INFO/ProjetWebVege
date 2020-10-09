@@ -48,3 +48,8 @@ function displayAnArticle($articleName,$origin)
         require "view/article.php";
     }
 }
+
+function displayPanier()
+{
+    $panier = new \ProjetWebVege\Panier();
+}

@@ -16,8 +16,24 @@ $rows = 0; // Column count
     img.img-fluid{
         height: 100%;
     }
+    .detaillé{
+        display: block;
+        background-color: gray;
+        position: absolute;
+        width: 34%;
+        margin-left: 33%;
+        margin-right: 33%;
+        margin-top: 20%;
+        margin-bottom: 20%;
+        height: 10cm;
+        z-index: 1000;
+    }
+    }
 </style>
-    <div class="hero-wrap hero-bread" style="background-image: url('images/bg_1.jpg');">
+    <section id="detaille" class="detaillé contents">
+            test
+    </section>
+    <div class="hero-wrap hero-bread" style="background-image: url('images/bg_1.jpg'); z-index: 500">
         <div class="container">
             <div class="row no-gutters slider-text align-items-center justify-content-center">
                 <div class="col-md-9 ftco-animate text-center">
@@ -53,19 +69,12 @@ $rows = 0; // Column count
                         </p>
                     </div>
                     <p class="price"><span><?=$vegeResults[0]['price']?>.-CHF</span></p>
-                    <p><?=$vegeResults[0]['description']?></p>
                     <div class="row mt-4">
                         <div class="col-md-6">
                             <div class="form-group d-flex">
-                                <div class="select-wrap">
-                                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                                    <select name="" id="" class="form-control">
-                                        <option value="">Small</option>
-                                        <option value="">Medium</option>
-                                        <option value="">Large</option>
-                                        <option value="">Extra Large</option>
-                                    </select>
-                                </div>
+                               <div href="#detaillé" class="btn btn-block btn-black">
+                                   Détail
+                               </div>
                             </div>
                         </div>
                         <div class="w-100"></div>

@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb5fb63c-589a-4341-ae3d-6ea525d2a4ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Class/Panier.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/panier.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/articles.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/articles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/article.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +51,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SiteWeb/GamingSite" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -84,7 +89,11 @@
       <workItem from="1601379135341" duration="6553000" />
       <workItem from="1601447478394" duration="5376000" />
       <workItem from="1601903629033" duration="602000" />
-      <workItem from="1601980833760" duration="5514000" />
+      <workItem from="1601980833760" duration="11054000" />
+      <workItem from="1602051231444" duration="5091000" />
+      <workItem from="1602140494743" duration="463000" />
+      <workItem from="1602145551949" duration="3954000" />
+      <workItem from="1602161041510" duration="1611000" />
     </task>
     <servers />
   </component>
@@ -120,6 +129,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="445" height="466" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1601384283212" />
+    <state x="740" y="281" key="FileChooserDialogImpl" timestamp="1602161920708">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1602161920708" />
     <state width="1875" height="201" key="GridCell.Tab.0.bottom" timestamp="1601456246496">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -176,10 +189,19 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="934" height="146" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1601385221050" />
-    <state x="430" y="185" key="SettingsEditor" timestamp="1599566331402">
-      <screen x="0" y="0" width="1858" height="1080" />
+    <state x="788" y="262" key="NewPhpClassDialog" timestamp="1601989049733">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="788" y="262" key="NewPhpClassDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601989049733" />
+    <state x="794" y="463" key="NewPhpFileDialog" timestamp="1601988883503">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="794" y="463" key="NewPhpFileDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601988883503" />
+    <state x="444" y="185" key="SettingsEditor" timestamp="1602051216760">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="430" y="185" key="SettingsEditor/0.0.1858.1080@0.0.1858.1080" timestamp="1599566331402" />
+    <state x="444" y="185" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1602051216760" />
     <state x="953" y="0" width="974" height="1087" key="dock-window-1" timestamp="1601907266522">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
