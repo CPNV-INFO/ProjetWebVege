@@ -31,7 +31,7 @@ ob_start();
             </div>
             <div class="row block-9">
                 <div class="col-md-12 order-md-last d-flex">
-                    <form action="#" class="bg-white p-5 contact-form" method="POST" action="index.php?action=login">
+                    <form class="bg-white p-5 contact-form" method="POST" action="index.php?action=login">
                         <div class="form-group">
                             <label for="inputUserEmail">Addresse e-mail</label>
                             <input type="email"  class="form-control" placeholder="exemple@xyz.com" name="inputUserEmailAddress" required>

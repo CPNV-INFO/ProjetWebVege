@@ -48,8 +48,8 @@ if (isset($_GET['action'])) {
             lost();
     }
 } else {
-    require_once "Class/Panier.php";
-    $_SESSION['itemCount'] = new \ProjetWebVege\Panier();
+   /** require_once "Class/Panier.php";
+    $_SESSION['itemCount'] = new \ProjetWebVege\Panier();*/
     home();
 
 }

@@ -46,7 +46,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution />
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,14 +67,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SiteWeb/GamingSite" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -89,7 +91,22 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="eb5fb63c-589a-4341-ae3d-6ea525d2a4ba" name="Default Changelist" comment="" />
@@ -112,23 +129,26 @@
       <workItem from="1602237565212" duration="110000" />
       <workItem from="1603698610750" duration="4386000" />
       <workItem from="1603801061632" duration="8175000" />
+      <workItem from="1603827313984" duration="394000" />
+      <workItem from="1603827724246" duration="1043000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="106" y="221" key="#Inspections" timestamp="1600776397115">
@@ -151,30 +171,34 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1603801148222" />
-    <state width="937" height="353" key="GridCell.Tab.0.bottom" timestamp="1603807608986">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1235" height="355" key="GridCell.Tab.0.bottom" timestamp="1603827708253">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1082" height="105" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1601455565023" />
     <state width="1877" height="122" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601447452977" />
     <state width="937" height="353" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603807608986" />
-    <state width="937" height="353" key="GridCell.Tab.0.center" timestamp="1603807608986">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1235" height="355" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1603827708253" />
+    <state width="1235" height="355" key="GridCell.Tab.0.center" timestamp="1603827708253">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1082" height="105" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1601455565023" />
     <state width="1877" height="122" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601447452977" />
     <state width="937" height="353" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603807608986" />
-    <state width="937" height="353" key="GridCell.Tab.0.left" timestamp="1603807608986">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1235" height="355" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1603827708253" />
+    <state width="1235" height="355" key="GridCell.Tab.0.left" timestamp="1603827708252">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1082" height="105" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1601455565023" />
     <state width="1877" height="122" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601447452977" />
     <state width="937" height="353" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603807608986" />
-    <state width="937" height="353" key="GridCell.Tab.0.right" timestamp="1603807608986">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1235" height="355" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1603827708252" />
+    <state width="1235" height="355" key="GridCell.Tab.0.right" timestamp="1603827708253">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1082" height="105" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1601455565023" />
     <state width="1877" height="122" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601447452977" />
     <state width="937" height="353" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603807608986" />
+    <state width="1235" height="355" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1603827708253" />
     <state width="937" height="353" key="GridCell.Tab.1.bottom" timestamp="1603807608986">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -215,11 +239,16 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="794" y="463" key="NewPhpFileDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601988883503" />
-    <state x="444" y="185" key="SettingsEditor" timestamp="1602051216760">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="313" y="235" key="SettingsEditor" timestamp="1603827591906">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="430" y="185" key="SettingsEditor/0.0.1858.1080@0.0.1858.1080" timestamp="1599566331402" />
     <state x="444" y="185" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1602051216760" />
+    <state x="313" y="235" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1603827591906" />
+    <state x="343" y="544" key="com.intellij.ide.util.TipDialog" timestamp="1603827731373">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="343" y="544" key="com.intellij.ide.util.TipDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1603827731373" />
     <state x="953" y="0" width="974" height="1087" key="dock-window-1" timestamp="1601907266522">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -248,7 +277,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/view/gabarit.php</url>
-          <line>86</line>
+          <line>225</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
