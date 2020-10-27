@@ -51,5 +51,9 @@ function displayAnArticle($articleName,$origin)
 
 function displayPanier()
 {
-    $panier = new \ProjetWebVege\Panier();
+    require_once "view/panier.php";
+}
+function addToPanier($element)
+{
+    $_SESSION['itemCount']->AddItem($element);
 }

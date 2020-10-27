@@ -12,7 +12,9 @@ require "controller/articles.php";
 require "controller/navigation.php";
 require "controller/users.php";
 
+
 if (isset($_GET['action'])) {
+
     $action = $_GET['action'];
     switch ($action) {
         case 'displayArticles' :
@@ -27,6 +29,12 @@ if (isset($_GET['action'])) {
         case 'home' :
             home();
             break;
+        case 'panier' :
+            displayPanier();
+            break;
+        case 'addPanier' :
+            addToPanier($_GET[$_GET['add']]);
+            break;
         case 'login' :
             login($_POST);
             break;
@@ -40,5 +48,8 @@ if (isset($_GET['action'])) {
             lost();
     }
 } else {
+    require_once "Class/Panier.php";
+    $_SESSION['itemCount'] = new \ProjetWebVege\Panier();
     home();
+
 }

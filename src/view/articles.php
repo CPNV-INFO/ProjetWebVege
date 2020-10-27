@@ -41,7 +41,8 @@ $rows = 0; // Column count
                 </div>
             </div>
             <div class="row">
-                <?php foreach ($vegeResults as $item) : ?>
+                <?php foreach ($vegeResults as $item)  : ?>
+                <?php  $_GET[$item['name']] = $item;?>
                 <div class="col-md-6 col-lg-3 ftco-animate">
                     <div class="product">
                         <a href="index.php?action=displayAnArticle&name=<?=$item['name']?>&origin=<?=$item['origin']?>" class="img-prod"><img class="img-fluid"  src="<?php if(file_exists($item['photo'])) echo $item['photo'] ; else  echo "view/content/images/pictureNoFound.jpg";?>"  alt="No image">
@@ -60,7 +61,7 @@ $rows = 0; // Column count
                                     <a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center">
                                         <span><i class="ion-ios-menu"></i></span>
                                     </a>
-                                    <a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1">
+                                    <a href="action=addPanier&add=<?=$item['name']?>&page=diplayarticles" class="buy-now d-flex justify-content-center align-items-center mx-1">
                                         <span><i class="ion-ios-cart"></i></span>
                                     </a>
                                     <a href="#" class="heart d-flex justify-content-center align-items-center ">

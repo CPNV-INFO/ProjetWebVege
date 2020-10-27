@@ -16,6 +16,8 @@
 function createSession($userEmailAddress)
 {
     $_SESSION['userEmailAddress'] = $userEmailAddress;
+    $_SESSION['itemCount'] = new \ProjetWebVege\Panier();
+
 }
 
 /**
@@ -59,6 +61,7 @@ function logout()
     $_SESSION = array();
     session_destroy();
     require "view/home.php";
+    $_SESSION['itemCount'] = 0;
 }
 
 /**
