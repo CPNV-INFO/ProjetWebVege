@@ -11,21 +11,21 @@ class Panier
     private $count = 0;
     private $Item_Exist = 0;
 
-    public function AddItem($item)
+    public function AddItem($items)
     {
         $validateAdd = true;
         $this->item = new Buyitem();
-        $this->item->photo = $item['photo'];
-        $this->item->element = $item['name'];
-        $this->item->price = $item['price'];
-        $this->item->description = $item['description'];
-        foreach ($this->listItem as $value)
+        $this->item->photo = $items['photo'];
+        $this->item->element = $items['name'];
+        $this->item->price = floatval($items['price']);
+        $this->item->description = $items['description'];
+        foreach ($this->listItem as $item)
         {
-            if($value[0]->element == $item['name'])
+            if($item[0]->element == $items['name'])
             {
                $validateAdd = false;
                $this->Item_Exist++;
-               $value[0]->quantity++;
+               $item[0]->quantity++;
             }
         }
         if($validateAdd)

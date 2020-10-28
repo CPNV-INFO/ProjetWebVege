@@ -77,7 +77,7 @@ $title = "Panier";
                                             </div>
                                         </td>
 
-                                        <td class="total"><?php if (round($item[0]->price * $item[0]->quantity, 2) % 1 > 0) echo round($item[0]->price * $item[0]->quantity, 2) . "CHF"; else echo $item[0]->price * $item[0]->quantity . ".-CHf"; ?></td>
+                                        <td class="total"><?php if ( fmod(round($item[0]->price * $item[0]->quantity, 2),1) > 0) echo round($item[0]->price * $item[0]->quantity, 2) . "CHF"; else echo $item[0]->price * $item[0]->quantity . ".-CHf"; ?></td>
                                     </tr><!-- END TR-->
                                     <?php $total += $item[0]->price * $item[0]->quantity;
                                 endforeach; ?>

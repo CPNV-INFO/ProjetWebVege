@@ -74,11 +74,11 @@ $rows = 0; // Column count
                                 <div class="pricing">
                                     <p class="price"><span class="price-sale">
                                             <?php
-                                                if (fmod($item['price'],1))
+                                                if (fmod($item['price'],1) > 0)
                                                 {
                                                     echo $item['price']."CHF";
                                                 } else
-                                                    echo round($item['price'] . ".-CHf"); ?>
+                                                    echo intval($item['price']).".-CHf"; ?>
                                         </span></p>
                                 </div>
                             </div>

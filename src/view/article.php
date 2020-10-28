@@ -97,7 +97,7 @@ $rows = 0; // Column count
                             <p style="color: #000;">600 kg available</p>
                         </div>
                     </div>
-                    <p><a href="index.php?action=panier&panier=<?=$vegeResults['name']?>" class="btn btn-black py-3 px-5">Add to Cart</a></p>
+                    <p><a href="index.php?action=panier&panier=<?=@$vegeResults['name']?>" class="btn btn-black py-3 px-5">Add to Cart</a></p>
                 </div>
             </div>
         </div>

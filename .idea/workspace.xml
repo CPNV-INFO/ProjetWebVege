@@ -22,22 +22,9 @@
     <list default="true" id="eb5fb63c-589a-4341-ae3d-6ea525d2a4ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Class/Panier.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Panier.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/articles.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/articles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/users.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/article.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/articles.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/articles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/content/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/content/blog-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/blog-single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/content/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/content/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/content/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/content/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/content/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/content/product-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/product-single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/content/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/content/wishlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/wishlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/gabarit.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/gabarit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/panier.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/panier.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,9 +33,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,19 +76,7 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -131,24 +104,24 @@
       <workItem from="1603801061632" duration="8175000" />
       <workItem from="1603827313984" duration="394000" />
       <workItem from="1603827724246" duration="27801000" />
+      <workItem from="1603868774515" duration="2230000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="106" y="221" key="#Inspections" timestamp="1600776397115">
@@ -286,7 +259,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/view/gabarit.php</url>
-          <line>225</line>
+          <line>226</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php-line-method">
