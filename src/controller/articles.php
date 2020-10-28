@@ -59,7 +59,10 @@ function addToPanier($element,$page)
     if($page == "displayarticles")
         displayArticles();
     else
-        require_once "view/panier.php";
+        if($page == "anArticle")
+            displayAnArticle($element['name'],$element['origin']);
+        else
+            require_once "view/panier.php";
 
 }
 function removeToPanier($element)

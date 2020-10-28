@@ -13,9 +13,9 @@ ob_start();
 $rows = 0; // Column count
 ?>
 <style>
-    .img-fluid {
-        height: 280px;
-    }
+
+
+
 </style>
 <div class="hero-wrap hero-bread" style="background-image: url('images/bg_1.jpg');">
     <div class="container">
@@ -78,7 +78,7 @@ $rows = 0; // Column count
                                                 {
                                                     echo $item['price']."CHF";
                                                 } else
-                                                    echo intval($item['price']).".-CHf"; ?>
+                                                    echo intval($item['price']).".-CHF"; ?>
                                         </span></p>
                                 </div>
                             </div>

@@ -14,6 +14,7 @@ ob_start();
 <style>
     #register:hover{
         color: #001808;
+        background;
     }
 </style>
     <div class="hero-wrap hero-bread" style="background-image: url('images/bg_1.jpg');">
