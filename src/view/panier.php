@@ -39,47 +39,30 @@ $title = "Panier";
                             </tr>
                             </thead>
                             <tbody>
+                            <?php $total =0 ;$discount = 0; foreach (  $_SESSION['panier']->getListItem() as $item) :?>
                             <tr class="text-center">
-                                <td class="product-remove"><a href="#"><span class="ion-ios-close"></span></a></td>
+                                <td class="product-remove"><a href="index.php?action=remove&add=<?= $item[0]->element ?>"><span class="ion-ios-close"></span></a></td>
 
-                                <td class="image-prod"><div class="img" style="background-image:url(images/product-3.jpg);"></div></td>
+                                <td class="image-prod"><div class="img" style="background-image:url(<?=$item[0]->photo; ?>);"></div></td>
 
                                 <td class="product-name">
-                                    <h3>Bell Pepper</h3>
-                                    <p>Far far away, behind the word mountains, far from the countries</p>
+                                    <h3><?=$item[0]->element ?> </h3>
+                                    <p><?=$item[0]->description ?> </p>
                                 </td>
 
-                                <td class="price">$4.90</td>
+                                <td class="price"><?=$item[0]->price ?> </td>
 
                                 <td class="quantity">
                                     <div class="input-group mb-3">
-                                        <input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1" max="100">
+                                        <input type="text" name="quantity" class="quantity form-control input-number" value="<?=$item[0]->quantity ?> " min="1" max="100">
                                     </div>
                                 </td>
 
-                                <td class="total">$4.90</td>
+                                <td class="total"><?php if(  round($item[0]->price * $item[0]->quantity,2 )%1 > 0)echo round($item[0]->price * $item[0]->quantity,2 )."CHF" ;else echo$item[0]->price * $item[0]->quantity.".-CHf";  ?></td>
                             </tr><!-- END TR-->
+                            <?php $total += $item[0]->price * $item[0]->quantity;
+                            endforeach; ?>
 
-                            <tr class="text-center">
-                                <td class="product-remove"><a href="#"><span class="ion-ios-close"></span></a></td>
-
-                                <td class="image-prod"><div class="img" style="background-image:url(images/product-4.jpg);"></div></td>
-
-                                <td class="product-name">
-                                    <h3>Bell Pepper</h3>
-                                    <p>Far far away, behind the word mountains, far from the countries</p>
-                                </td>
-
-                                <td class="price">$15.70</td>
-
-                                <td class="quantity">
-                                    <div class="input-group mb-3">
-                                        <input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1" max="100">
-                                    </div>
-                                </td>
-
-                                <td class="total">$15.70</td>
-                            </tr><!-- END TR-->
                             </tbody>
                         </table>
                     </div>
@@ -97,7 +80,7 @@ $title = "Panier";
                             </div>
                         </form>
                     </div>
-                    <p><a href="view/content/checkout.html" class="btn btn-primary py-3 px-4">Apply Coupon</a></p>
+                    <p><a href="index.php?action=couponVerify" class="btn btn-primary py-3 px-4">Apply Coupon</a></p>
                 </div>
                 <div class="col-lg-4 mt-5 cart-wrap ftco-animate">
                     <div class="cart-total mb-3">
@@ -118,30 +101,30 @@ $title = "Panier";
                             </div>
                         </form>
                     </div>
-                    <p><a href="view/content/checkout.html" class="btn btn-primary py-3 px-4">Estimate</a></p>
+                    <p><a href="index.php?action=checkout" class="btn btn-primary py-3 px-4">Estimate</a></p>
                 </div>
                 <div class="col-lg-4 mt-5 cart-wrap ftco-animate">
                     <div class="cart-total mb-3">
                         <h3>Cart Totals</h3>
                         <p class="d-flex">
                             <span>Subtotal</span>
-                            <span>$20.60</span>
+                            <span><?php if(  fmod(round($total,2 ),1) > 0)echo round($total,2 )."CHF" ;else echo $total.".-CHf";  ?></span>
                         </p>
-                        <p class="d-flex">
+                       <p class="d-flex">
                             <span>Delivery</span>
-                            <span>$0.00</span>
+                            <span><?=3.95 % 1 ?></span>
                         </p>
                         <p class="d-flex">
                             <span>Discount</span>
-                            <span>$3.00</span>
+                            <span><?php if(  fmod( round($discount,2 ),1) > 0)echo round($discount,2 )."CHF" ;else echo $discount.".-CHf";  ?></span>
                         </p>
                         <hr>
                         <p class="d-flex total-price">
                             <span>Total</span>
-                            <span>$17.60</span>
+                            <span><?php if(  fmod(round($total-$discount,2 ),1) > 0)echo round($total-$discount,2 )."CHF" ;else echo $total-$discount.".-CHf";  ?></span>
                         </p>
                     </div>
-                    <p><a href="view/content/checkout.html" class="btn btn-primary py-3 px-4">Proceed to Checkout</a></p>
+                    <p><a href="index.php?action=checkout" class="btn btn-primary py-3 px-4">Proceed to Checkout</a></p>
                 </div>
             </div>
         </div>

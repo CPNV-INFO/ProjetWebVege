@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Hôte :                        127.0.0.1
--- Version du serveur:           8.0.21 - MySQL Community Server - GPL
+-- Version du serveur:           8.0.19 - MySQL Community Server - GPL
 -- SE du serveur:                Win64
 -- HeidiSQL Version:             11.0.0.5919
 -- --------------------------------------------------------
@@ -17,6 +17,22 @@ DROP DATABASE IF EXISTS `vege`;
 CREATE DATABASE IF NOT EXISTS `vege` /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 USE `vege`;
 
+-- Listage de la structure de la table vege. coupon
+DROP TABLE IF EXISTS `coupon`;
+CREATE TABLE IF NOT EXISTS `coupon` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `code` varchar(20) NOT NULL DEFAULT '',
+  `rabais` int NOT NULL,
+  `valable` tinyint NOT NULL DEFAULT '1',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+-- Listage des données de la table vege.coupon : ~1 rows (environ)
+/*!40000 ALTER TABLE `coupon` DISABLE KEYS */;
+REPLACE INTO `coupon` (`id`, `code`, `rabais`, `valable`) VALUES
+	(1, '6gfbxsr3JpZHK37a', 10, 1);
+/*!40000 ALTER TABLE `coupon` ENABLE KEYS */;
+
 -- Listage de la structure de la table vege. users
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE IF NOT EXISTS `users` (
@@ -25,9 +41,10 @@ CREATE TABLE IF NOT EXISTS `users` (
   `userHashPsw` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `userEmailAddress` (`userEmailAddress`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
-
+-- Listage des données de la table vege.users : ~0 rows (environ)
+/*!40000 ALTER TABLE `users` DISABLE KEYS */;
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 
 -- Listage de la structure de la table vege. vege
@@ -47,17 +64,17 @@ CREATE TABLE IF NOT EXISTS `vege` (
 
 -- Listage des données de la table vege.vege : ~10 rows (environ)
 /*!40000 ALTER TABLE `vege` DISABLE KEYS */;
-INSERT INTO `vege` (`id`, `name`, `origin`, `variety`, `color`, `description`, `photo`, `price`, `category`) VALUES
+REPLACE INTO `vege` (`id`, `name`, `origin`, `variety`, `color`, `description`, `photo`, `price`, `category`) VALUES
 	(1, 'Banane', 'Brésil', NULL, 'Jaune', 'Banane exotique venant du Brésil cultivé avec pesticide.', 'view/content/images/banane_small.jpeg', 2.95, 'Fruit'),
 	(2, 'Fraise', 'Espagne', NULL, 'Rouge', 'Fraises provenant d\' espagne cultivé en pleine airs avec pesticide. ', 'view/content/images/fraises_small.jpg', 4.75, 'Fruit'),
 	(3, 'Pomme', 'Suisse', 'Golden', 'Jaune', 'Pommes Golden Bio cultivé en Suisse avec le respect des normes écologique.', 'view/content/images/pomme-golden_small.jpg', 7.90, 'Fruit'),
 	(4, 'Pomme', 'France', 'La Gala', 'Rouge', 'Pommes Gala juteuse et sucrée.', 'view/content/images/pomme-lagala_small.jpg', 4.15, 'Fruit'),
 	(5, 'Orange', 'Tunisie', NULL, 'Orange', 'Oranges bio . ', 'view/content/images/orange_small.jpg', 6.00, 'Fruit'),
-	(6, 'Salade', 'Suisse', 'Batavia', 'Vert', 'Avec ses superbes feuilles soyeuses, la laitue Boston est délicieuse.', 'view/content/images/salade-batavia_small.jpg', 11.50, 'Vegeta'),
-	(7, 'Carotte', 'Portugal', NULL, 'Orange', 'Belle carottes provenant du Portugal, Culture Bio.', 'view/content/images/carotte_small.jpg', 9.10, 'Verdure'),
-	(8, 'Pomme de terre', 'Suisse', NULL, 'Jaune', 'Pomme de terre Suisse, avec toute la qualité que cela implique.', 'view/content/images/pomme-de-terre_small.jpg', 8.40, 'Vegeta'),
-	(9, 'Champignons', 'France', NULL, 'Brun', 'Champignons des bois.', 'view/content/images/champignon_de_paris_small.jpg', 6.70, 'Other'),
-	(10, 'Brocoli', 'Canada', NULL, 'Vert', 'Brocoli canadien, et tout le monde sait que le canada c est cool.', 'view/content/images/brocoli_small.jpg', 2.40, 'Vegeta');
+	(6, 'Salade', 'Suisse', 'Batavia', 'Vert', 'Avec ses superbes feuilles soyeuses, la laitue Boston est délicieuse.', 'view/content/images/salade-batavia_small.jpg', 11.50, 'Plant'),
+	(7, 'Carotte', 'Portugal', NULL, 'Orange', 'Belle carottes provenant du Portugal, Culture Bio.', 'view/content/images/carotte_small.jpg', 9.10, 'Vegetal'),
+	(8, 'Pomme de terre', 'Suisse', NULL, 'Jaune', 'Pomme de terre Suisse, avec toute la qualité que cela implique.', 'view/content/images/pomme-de-terre_small.jpg', 8.40, 'Plant'),
+	(9, 'Champignons', 'France', NULL, 'Brun', 'Champignons des bois.', 'view/content/images/champignon_de_paris_small.jpg', 6.70, 'Vegetal'),
+	(10, 'Brocoli', 'Canada', NULL, 'Vert', 'Brocoli canadien, et tout le monde sait que le canada c est cool.', 'view/content/images/brocoli_small.jpg', 2.40, 'Vegetal');
 /*!40000 ALTER TABLE `vege` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

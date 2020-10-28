@@ -85,7 +85,7 @@
                     <li class="nav-item"><a href="index.php?action=logout"class="nav-link">Se déconnecter </a></li>
                 <?php endif; ?>
 
-                <li class="nav-item cta cta-colored"><a href="index.php?action=panier" class="nav-link"><span class="icon-shopping_cart"></span>[<?=/** $_SESSION['itemCount']->Count();*/0; ?>]</a></li>
+                <li class="nav-item cta cta-colored"><a href="index.php?action=panier" class="nav-link"><span class="icon-shopping_cart"></span>[<?= $_SESSION['panier']->getCount(); ?>]</a></li>
 
             </ul>
         </div>

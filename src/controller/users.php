@@ -16,8 +16,7 @@
 function createSession($userEmailAddress)
 {
     $_SESSION['userEmailAddress'] = $userEmailAddress;
-    $_SESSION['itemCount'] = new \ProjetWebVege\Panier();
-
+    $_SESSION['panier'] = new \ProjetWebVege\Panier();
 }
 
 /**
@@ -61,7 +60,7 @@ function logout()
     $_SESSION = array();
     session_destroy();
     require "view/home.php";
-    $_SESSION['itemCount'] = 0;
+    $_SESSION['panier'] = new \ProjetWebVege\Panier();
 }
 
 /**
@@ -83,6 +82,7 @@ function register($registerRequest)
                 require_once "model/usersManager.php";
                 if (registerNewAccount($userEmailAddress, $userPsw)) {
                     createSession($userEmailAddress);
+                    $_SESSION['panier'] = new \ProjetWebVege\Panier();
                     $registerErrorMessage = null;
                     require "view/home.php";
                 } else {

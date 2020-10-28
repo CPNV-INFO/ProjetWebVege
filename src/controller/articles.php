@@ -53,7 +53,23 @@ function displayPanier()
 {
     require_once "view/panier.php";
 }
-function addToPanier($element)
+function addToPanier($element,$page)
 {
-    $_SESSION['itemCount']->AddItem($element);
+    $_SESSION['panier']->AddItem($element);
+    if($page == "displayarticles")
+        displayArticles();
+    else
+        require_once "view/panier.php";
+
+}
+function removeToPanier($element)
+{
+    $_SESSION['panier']->DeleteItem($element);
+
+        require_once "view/panier.php";
+
+}
+function checkout()
+{
+    require "view/checkout.php";
 }

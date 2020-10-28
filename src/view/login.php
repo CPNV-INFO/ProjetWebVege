@@ -11,6 +11,11 @@ $title = 'Login';
 
 ob_start();
 ?>
+<style>
+    #register:hover{
+        color: #001808;
+    }
+</style>
     <div class="hero-wrap hero-bread" style="background-image: url('images/bg_1.jpg');">
         <div class="container">
             <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -47,11 +52,12 @@ ob_start();
                             <div class="col-md-3 ce">
                                 <input type="reset" class="btn btn-primary py-3 px-5" placeholder="Subject">
                             </div>
-                            <div class="col-md-3 ce">
-                                <a href="index.php?action=register"><input type="button" class="btn btn-primary py-3 px-5" value="register" placeholder="Subject"></a>
+                            <div class="col-md-3 " ">
+                                <a href="index.php?action=register"><input type="button" class="btn btn-primary py-3 px-5" value="Mot de passe oublié?" placeholder="Subject"></a>
                             </div>
                             <div class=" col-md-3 ce py-3 px-5">
-                                <a href="index.php?action=register">Mot de passe oublié ?</a>
+
+                                 <a id="register" href="index.php?action=register" >Pas de compte, connectez vous</a>
                             </div>
                         </div>
                     </form>
@@ -62,4 +68,5 @@ ob_start();
 <?php
 $content = ob_get_clean();
 require 'gabarit.php';
+
 ?>

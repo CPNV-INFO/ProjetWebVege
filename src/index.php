@@ -6,7 +6,7 @@
  * @author    Updated by Nicolas.GLASSEY
  * @version   13-APR-2020
  */
-
+require "Class/Panier.php";
 session_start();
 require "controller/articles.php";
 require "controller/navigation.php";
@@ -33,7 +33,7 @@ if (isset($_GET['action'])) {
             displayPanier();
             break;
         case 'addPanier' :
-            addToPanier($_GET[$_GET['add']]);
+            addToPanier($_SESSION['allArticle'][$_GET['add']],$_GET['page'],);
             break;
         case 'login' :
             login($_POST);
@@ -44,12 +44,18 @@ if (isset($_GET['action'])) {
         case 'register' :
             register($_POST);
             break;
+        case 'remove':
+            removeToPanier($_SESSION['allArticle'][$_GET['add']],);
+            break;
+        case 'checkout' :
+            checkout();
+            break;
         default :
             lost();
     }
 } else {
-   /** require_once "Class/Panier.php";
-    $_SESSION['itemCount'] = new \ProjetWebVege\Panier();*/
+
+    $_SESSION['panier'] = new \ProjetWebVege\Panier();
     home();
 
 }
