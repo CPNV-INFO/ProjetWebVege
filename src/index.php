@@ -33,7 +33,7 @@ if (isset($_GET['action'])) {
             displayPanier();
             break;
         case 'addPanier' :
-            addToPanier($_SESSION['allArticle'][$_GET['add']],$_GET['page'],);
+            addToPanier($_SESSION['allArticle'][$_GET['add']],@$_GET['page'],);
             break;
         case 'login' :
             login($_POST);
