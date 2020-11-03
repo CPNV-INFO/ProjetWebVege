@@ -11,7 +11,12 @@ $title = 'Lost';
 
 ob_start();
 ?>
-    <h2>Oupsss... on vous a perdu en chemin ;(.</h2>
+    <section class="container block-20 bg-danger">
+        <div class="align-content-center contents align-middle">
+            <h2 class="text-center">Oupsss... on vous a perdu en chemin <span class="icon-frown-o btn " style="background-color: yellow"></span></h2>
+        </div>
+    </section>
+
 <?php
 $content = ob_get_clean();
 require 'gabarit.php';
