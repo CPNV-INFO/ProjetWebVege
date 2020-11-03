@@ -9,8 +9,6 @@ class Panier
     private $item ;
     private $listItem ;
     private $count = 0;
-    private $Item_Exist = 0;
-
     public function AddItem($items)
     {
         $validateAdd = true;
@@ -19,17 +17,17 @@ class Panier
         $this->item->element = $items['name'];
         $this->item->price = floatval($items['price']);
         $this->item->description = $items['description'];
+        $this->item->variety = $items['variety'];
         foreach ($this->listItem as $item)
         {
-            if($item[0]->element == $items['name'])
+            if($item[0]->element == $items['name']&&$item[0]->variety == $items['variety'])
             {
                $validateAdd = false;
-               $this->Item_Exist++;
                $item[0]->quantity++;
             }
         }
         if($validateAdd)
-            $this->listItem[$this->item->element] = array($this->item);
+            $this->listItem[$this->item->element.$this->item->variety] = array($this->item);
         $this->Count();
 
     }
@@ -42,32 +40,35 @@ class Panier
         $list = null;
         foreach ($this->listItem as $value)
         {
-            if($value[0]->element != $item['name'] )
+            if($value[0]->element != $item['name'])
             {
-                $list[$value[0]->element] = $value;
+                $list[$value[0]->element.$value[0]->variety] = $value;
             }
             else {
-                $value[0]->quantity--;
+                if($value[0]->variety == $item['variety'])
+                    $value[0]->quantity--;
+                else
+                    $list[$value[0]->element.$value[0]->variety] = $value;
             }
         }
-        if( $this->listItem[$item['name']][0]->quantity == 0){
+        if( $this->listItem[$item['name'].$item['variety']][0]->quantity == 0){
             $this->listItem = $list;
         }
-            else{
-                $this->Item_Exist--;
-            }
-
-
         $this->Count();
     }
-
     public function Count()
     {
          $this->count =  sizeof($this->listItem);
+
     }
     public function getCount()
     {
-        return $this->count + $this->Item_Exist;
+        $total = 0;
+        foreach ($this->listItem as $item)
+        {
+           $total +=  $item[0]->quantity;
+        }
+        return $total;
     }
 }
 
@@ -78,6 +79,6 @@ class Buyitem
     public $description;
     public $price;
     public $photo;
+    public $variety;
     public $quantity = 1;
-
 }

@@ -54,7 +54,7 @@ $rows = 0; // Column count
             <?php foreach ($vegeResults as $item)  : ?>
                 <?php
 
-                $_GET[$item['name']] = $item;
+                $_GET[$item['name'].$item["variety"]] = $item;
                 $_SESSION['allArticle'] = $_GET;
                 ?>
                 <div class="col-md-6 col-lg-3 ftco-animate">
@@ -84,11 +84,11 @@ $rows = 0; // Column count
                             </div>
                             <div class="bottom-area d-flex px-3">
                                 <div class="m-auto d-flex">
-                                    <a href="index.php?action=addPanier&add=<?= $item['name'] ?>&page=displayarticles"
+                                    <a href="index.php?action=addPanier&add=<?= $item['name'].$item['variety']?>&page=displayarticles"
                                        class="add-to-cart d-flex justify-content-center align-items-center text-center">
                                         <span><i class="ion-ios-menu"></i></span>
                                     </a>
-                                    <a href="index.php?action=addPanier&add=<?= $item['name'] ?>"
+                                    <a href="index.php?action=addPanier&add=<?= $item['name'].$item['variety'] ?>"
                                        class="buy-now d-flex justify-content-center align-items-center mx-1">
                                         <span><i class="ion-ios-cart"></i></span>
                                     </a>

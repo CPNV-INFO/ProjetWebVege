@@ -54,8 +54,6 @@ if (isset($_GET['action'])) {
             lost();
     }
 } else {
-
     $_SESSION['panier'] = new \ProjetWebVege\Panier();
     home();
-
 }

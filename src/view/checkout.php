@@ -29,7 +29,7 @@ ob_start();
             <div class="row justify-content-center">
                 <div class="col-xl-7 ftco-animate">
                     <form action="#" class="billing-form">
-                        <h3 class="mb-4 billing-heading">Billing Details</h3>
+                        <h3 class="mb-4 billing-heading">Delivery address</h3>
                         <div class="row align-items-end">
                             <div class="col-md-6">
                                 <div class="form-group">

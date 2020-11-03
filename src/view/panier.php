@@ -1,6 +1,6 @@
 <?php
 /**
- * @file      home.php
+ * @file      panier.php
  * @brief     This view is designed to display the home page
  * @author    Created by Pascal.BENZONANA
  * @author    Updated by Nicolas.GLASSEY
@@ -22,9 +22,7 @@ $title = "Panier";
             </div>
         </div>
     </div>
-
     <section class="ftco-section ftco-cart">
-        <div class="container">
             <div class="row">
                 <div class="col-md-12 ftco-animate">
                     <div class="cart-list">
@@ -32,7 +30,7 @@ $title = "Panier";
                             <thead class="thead-primary">
                             <tr class="text-center">
                                 <th>&nbsp;</th>
-                                <th>&nbsp;</th>
+                                <th>&nbsp</th>
                                 <th>Product name</th>
                                 <th>Price</th>
                                 <th>Quantity</th>
@@ -54,9 +52,8 @@ $title = "Panier";
                                 <?php foreach ($_SESSION['panier']->getListItem() as $item) : ?>
                                     <tr class="text-center">
                                         <td class="product-remove"><a
-                                                    href="index.php?action=remove&add=<?= $item[0]->element ?>"><span
+                                                    href="index.php?action=remove&add=<?= $item[0]->element.$item[0]->variety ?>"><span
                                                         class="ion-ios-close"></span></a></td>
-
                                         <td class="image-prod">
                                             <div class="img"
                                                  style="background-image:url(<?= $item[0]->photo; ?>);"></div>
@@ -67,17 +64,20 @@ $title = "Panier";
                                             <p><?= $item[0]->description ?> </p>
                                         </td>
 
-                                        <td class="price"><?= $item[0]->price ?> </td>
+                                        <td class="price"><?php if ( fmod(round($item[0]->price , 2),1) > 0) echo number_format((float)round($item[0]->price, 2),2 ). "CHF"; else echo $item[0]->price. ".-CHf"; ?> </td>
 
                                         <td class="quantity">
                                             <div class="input-group mb-3">
-                                                <input type="text" name="quantity"
+                                                <a href="index.php?action=remove&add=<?= $item[0]->element.$item[0]->variety ?>" ><div  class="btn btn-danger align-content-center "><span class="icon-remove2"></span></div></a>
+                                                <input type="number" disabled="disabled" name="quantity"
                                                        class="quantity form-control input-number"
-                                                       value="<?= $item[0]->quantity ?> " min="1" max="100">
+                                                       value=<?= $item[0]->quantity ?>  min="1" max="100">
+                                                <a  href="index.php?action=addPanier&add=<?=$item[0]->element.$item[0]->variety?>"><div  class="btn btn-primary align-content-center"><span class=" ce icon-add"></span></div></a>
                                             </div>
+
                                         </td>
 
-                                        <td class="total"><?php if ( fmod(round($item[0]->price * $item[0]->quantity, 2),1) > 0) echo round($item[0]->price * $item[0]->quantity, 2) . "CHF"; else echo $item[0]->price * $item[0]->quantity . ".-CHf"; ?></td>
+                                        <td class="total"><?php if ( fmod(round($item[0]->price * $item[0]->quantity, 2),1) > 0) echo number_format((float)round($item[0]->price * $item[0]->quantity, 2),2 ). "CHF"; else echo $item[0]->price * $item[0]->quantity . ".-CHf"; ?></td>
                                     </tr><!-- END TR-->
                                     <?php $total += $item[0]->price * $item[0]->quantity;
                                 endforeach; ?>
@@ -87,19 +87,19 @@ $title = "Panier";
                     </div>
                 </div>
             </div>
+
             <div class="row justify-content-end">
                 <div class="col-lg-4 mt-5 cart-wrap ftco-animate">
                     <div class="cart-total mb-3">
                         <h3>Coupon Code</h3>
-                        <p>Enter your coupon code if you have one</p>
-                        <form action="#" class="info">
+                        <p></p>
+                        <form action="#" method="post" class="info">
                             <div class="form-group">
-                                <label for="">Coupon code</label>
-                                <input type="text" class="form-control text-left px-3" placeholder="">
+                                <input type="text" class="form-control text-left px-3" placeholder="Enter your coupon code if you have one" required>
                             </div>
                         </form>
                     </div>
-                    <p><a href="index.php?action=couponVerify" class="btn btn-primary py-3 px-4">Apply Coupon</a></p>
+                    <a href="index.php?action=couponVerify" ><input class="btn btn-primary py-3 px-4" type="submit" value="Apply Coupon"></a>
                 </div>
                 <div class="col-lg-4 mt-5 cart-wrap ftco-animate">
                     <div class="cart-total mb-3">
@@ -127,7 +127,7 @@ $title = "Panier";
                         <h3>Cart Totals</h3>
                         <p class="d-flex">
                             <span>Subtotal</span>
-                            <span><?php if (fmod(round($total, 2), 1) > 0) echo round($total, 2) . "CHF"; else echo $total . ".-CHf"; ?></span>
+                            <span><?php if (fmod(round($total, 2), 1) > 0) echo number_format($total ,2). "CHF"; else echo $total . ".-CHf"; ?></span>
                         </p>
                         <p class="d-flex">
                             <span>Delivery</span>
@@ -135,12 +135,12 @@ $title = "Panier";
                         </p>
                         <p class="d-flex">
                             <span>Discount</span>
-                            <span><?php if (fmod(round($discount, 2), 1) > 0) echo round($discount, 2) . "CHF"; else echo $discount . ".-CHf"; ?></span>
+                            <span><?php if (fmod(round($discount, 2), 1) > 0) echo number_format( round($discount, 2),2). "CHF"; else echo $discount . ".-CHf"; ?></span>
                         </p>
                         <hr>
                         <p class="d-flex total-price">
                             <span>Total</span>
-                            <span><?php if (fmod(round($total - $discount, 2), 1) > 0) echo round($total - $discount, 2) . "CHF"; else echo $total - $discount . ".-CHf"; ?></span>
+                            <span><?php if (fmod(round($total - $discount, 2), 1) > 0) echo number_format(round($total - $discount, 2),2 ). "CHF"; else echo $total - $discount . ".-CHf"; ?></span>
                         </p>
                     </div>
                     <p><a href="index.php?action=checkout" class="btn btn-primary py-3 px-4">Proceed to Checkout</a></p>
@@ -148,7 +148,6 @@ $title = "Panier";
             </div>
         </div>
     </section>
-
     <section class="ftco-section ftco-no-pt ftco-no-pb py-5 bg-light">
         <div class="container py-4">
             <div class="row d-flex justify-content-center py-5">
@@ -167,6 +166,9 @@ $title = "Panier";
             </div>
         </div>
     </section>
+<script>
+
+</script>
 <?php
 $content = ob_get_clean();
 require "gabarit.php";
