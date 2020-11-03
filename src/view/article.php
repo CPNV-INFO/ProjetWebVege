@@ -8,7 +8,6 @@
  */
 
 $title = "Rent A Snow - Snows";
-
 ob_start();
 $rows = 0; // Column count
 ?>

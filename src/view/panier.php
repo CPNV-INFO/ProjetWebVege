@@ -68,17 +68,33 @@ $title = "Panier";
 
                                         <td class="quantity">
                                             <div class="input-group mb-3">
-                                                <a href="index.php?action=remove&add=<?= $item[0]->element.$item[0]->variety ?>" ><div  class="btn btn-danger align-content-center "><span class="icon-remove2"></span></div></a>
+                                                <a id="<?=$item[0]->element.$item[0]->variety."less"?>" name="moin" href="index.php?action=remove&add=<?= $item[0]->element.$item[0]->variety ?>"><div  class="btn btn-danger align-content-center "><span class="icon-remove2"></span></div></a>
                                                 <input type="number" disabled="disabled" name="quantity"
                                                        class="quantity form-control input-number"
                                                        value=<?= $item[0]->quantity ?>  min="1" max="100">
-                                                <a  href="index.php?action=addPanier&add=<?=$item[0]->element.$item[0]->variety?>"><div  class="btn btn-primary align-content-center"><span class=" ce icon-add"></span></div></a>
+                                                <a id="<?=$item[0]->element.$item[0]->variety."add"?>" name="plus" href="index.php?action=addPanier&add=<?=$item[0]->element.$item[0]->variety?>"><div  class="btn btn-primary align-content-center"><span class=" ce icon-add"></span></div></a>
                                             </div>
 
                                         </td>
 
                                         <td class="total"><?php if ( fmod(round($item[0]->price * $item[0]->quantity, 2),1) > 0) echo number_format((float)round($item[0]->price * $item[0]->quantity, 2),2 ). "CHF"; else echo $item[0]->price * $item[0]->quantity . ".-CHf"; ?></td>
                                     </tr><!-- END TR-->
+                                <script>
+                                    <?php /**$item[0]->element.$item[0]->variety."less"?>.addEventListener("click",deleteitem())
+                                    <?=$item[0]->element.$item[0]->variety."add"?>.addEventListener("click",additem())
+                                    function deleteitem(){
+
+                                        <?php $_SESSION['panier']->DeleteItem($item[0]); $total =  :?> 1
+                                        var elem = document.getElementById("<?=$item[0]->element.$item[0]->variety."less"?>")
+
+                                        elem.moin.values--;
+                                    }
+                                    function additem(){
+                                        <?php $_SESSION['panier']->AddItem($item[0]); ?>
+                                        var elem = document.getElementById("<?=$item[0]->element.$item[0]->variety."add"?>")
+                                        elem.plus.values++;
+                                    }*/?>
+                                </script>
                                     <?php $total += $item[0]->price * $item[0]->quantity;
                                 endforeach; ?>
                             <?php endif; ?>
@@ -166,9 +182,7 @@ $title = "Panier";
             </div>
         </div>
     </section>
-<script>
 
-</script>
 <?php
 $content = ob_get_clean();
 require "gabarit.php";
