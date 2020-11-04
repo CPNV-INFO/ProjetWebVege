@@ -51,7 +51,7 @@ $rows = 0; // Column count
             </div>
         </div>
         <div class="row">
-            <?php foreach ($vegeResults as $item)  : ?>
+            <?php foreach (@$vegeResults as $item)  : ?>
                 <?php
 
                 $_GET[$item['name'].$item["variety"]] = $item;
