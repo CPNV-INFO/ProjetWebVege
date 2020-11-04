@@ -99,14 +99,7 @@ ob_start();
                                 </div>
                             </div>
                             <div class="w-100"></div>
-                            <div class="col-md-12">
-                                <div class="form-group mt-4">
-                                    <div class="radio">
-                                        <label class="mr-3"><input type="radio" name="optradio"> Create an Account? </label>
-                                        <label><input type="radio" name="optradio"> Ship to different address</label>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                     </form><!-- END -->
                 </div>
@@ -137,36 +130,46 @@ ob_start();
                         <div class="col-md-12">
                             <div class="cart-detail p-3 p-md-4">
                                 <h3 class="billing-heading mb-4">Payment Method</h3>
-                                <div class="form-group">
-                                    <div class="col-md-12">
-                                        <div class="radio">
-                                            <label><input type="radio" name="optradio" class="mr-2"> Direct Bank Tranfer</label>
+                                <div id ="payement" class="form-group">
+                                    <div id="smart-button-container">
+                                        <div style="text-align: center;">
+                                            <div id="paypal-button-container"></div>
                                         </div>
                                     </div>
+                                    <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=CHF" data-sdk-integration-source="button-factory"></script>
+                                    <script>
+                                        function initPayPalButton() {
+                                            paypal.Buttons({
+                                                style: {
+                                                    shape: 'pill',
+                                                    color: 'blue',
+                                                    layout: 'vertical',
+                                                    label: 'paypal',
+
+                                                },
+
+                                                createOrder: function(data, actions) {
+                                                    return actions.order.create({
+                                                        purchase_units: [{"amount":{"currency_code":"CHF","value":1.5,"breakdown":{"item_total":{"currency_code":"CHF","value":1},"shipping":{"currency_code":"CHF","value":0.5},"tax_total":{"currency_code":"CHF","value":0}}}}]
+                                                    });
+                                                },
+
+                                                onApprove: function(data, actions) {
+                                                    return actions.order.capture().then(function(details) {
+                                                        alert('Transaction completed by ' + details.payer.name.given_name + '!');
+                                                    });
+                                                },
+
+                                                onError: function(err) {
+                                                    console.log(err);
+                                                }
+                                            }).render('#paypal-button-container');
+                                        }
+                                        initPayPalButton();
+                                    </script>
+
                                 </div>
-                                <div class="form-group">
-                                    <div class="col-md-12">
-                                        <div class="radio">
-                                            <label><input type="radio" name="optradio" class="mr-2"> Check Payment</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-md-12">
-                                        <div class="radio">
-                                            <label><input type="radio" name="optradio" class="mr-2"> Paypal</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-md-12">
-                                        <div class="checkbox">
-                                            <label><input type="checkbox" value="" class="mr-2"> I have read and accept the terms and conditions</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <p><a href="#"class="btn btn-primary py-3 px-4">Place an order</a></p>
-                            </div>
+
                         </div>
                     </div>
                 </div> <!-- .col-md-8 -->

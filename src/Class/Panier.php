@@ -56,7 +56,7 @@ class Panier
         }
         $this->Count();
     }
-    public function Count()
+    private function Count()
     {
          $this->count =  sizeof($this->listItem);
 

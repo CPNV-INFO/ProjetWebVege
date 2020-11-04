@@ -24,7 +24,7 @@ function getArticles()
 function getArticle($articleName,$origine)
 {
 
-    $snowsQuery = "SELECT id, name, origin, variety, color, description, photo,price FROM vege where name = '$articleName' and origin = '$origine'; ";
+    $snowsQuery = "SELECT id, name, origin, variety, color, description, photo,price,category FROM vege where name = '$articleName' and origin = '$origine'; ";
 
     require_once 'model/dbConnector.php';
 
