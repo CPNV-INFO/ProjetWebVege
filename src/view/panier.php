@@ -69,7 +69,7 @@ $title = "Panier";
                                         <td class="quantity">
                                             <div class="input-group mb-3">
                                                 <a id="<?=$item[0]->element.$item[0]->variety."less"?>" name="moin" href="index.php?action=remove&add=<?= $item[0]->element.$item[0]->variety ?>"><div  class="btn btn-danger align-content-center "><span class="icon-remove2"></span></div></a>
-                                                <input type="number" disabled="disabled" name="quantity"
+                                                <input type="text" disabled="disabled" name="quantity"
                                                        class="quantity form-control input-number"
                                                        value=<?= $item[0]->quantity ?>  min="1" max="100">
                                                 <a id="<?=$item[0]->element.$item[0]->variety."add"?>" name="plus" href="index.php?action=addPanier&add=<?=$item[0]->element.$item[0]->variety?>"><div  class="btn btn-primary align-content-center"><span class=" ce icon-add"></span></div></a>
