@@ -28,11 +28,11 @@ $rows = 0; // Column count
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 mb-5 ftco-animate">
-                    <a href="<?= $vegeResults[0]['photo'] ?>" class="image-popup"><img
-                                src="<?= $vegeResults[0]['photo'] ?>" class="img-fluid" alt="Colorlib Template"></a>
+                    <a href="<?= @$vegeResults[0]['photo'] ?>" class="image-popup"><img
+                                src="<?= @$vegeResults[0]['photo'] ?>" class="img-fluid" alt="Colorlib Template"></a>
                 </div>
                 <div class="col-lg-6 product-details pl-md-5 ftco-animate">
-                    <h3><?= $vegeResults[0]['name'] ?> <?= $vegeResults[0]['origin'] ?> </h3>
+                    <h3><?= @$vegeResults[0]['name'] ?> <?= @$vegeResults[0]['origin'] ?> </h3>
                     <div class="rating d-flex">
                         <p class="text-left mr-4">
                             <a href="#" class="mr-2">5.0</a>
@@ -51,10 +51,10 @@ $rows = 0; // Column count
                         </p>
                     </div>
                     <p class="price"><span><?php
-                            if (fmod($vegeResults[0]['price'], 1) > 0) {
-                                echo $vegeResults[0]['price'] . "CHF";
+                            if (fmod(@$vegeResults[0]['price'], 1) > 0) {
+                                echo @$vegeResults[0]['price'] . "CHF";
                             } else
-                                echo intval($vegeResults[0]['price']) . ".-CHF";
+                                echo intval(@$vegeResults[0]['price']) . ".-CHF";
                              ?></span></p>
                     <div class="row mt-4">
                         <div class="col-md-6">
@@ -107,22 +107,22 @@ $rows = 0; // Column count
                 </div>
                 <div class="modal-body align-content-between">
                     <div class="col-lg-6 mb-5 ftco-animate">
-                        <img src="<?= $vegeResults[0]['photo'] ?>" class="" alt="Colorlib Template">
+                        <img src="<?= @$vegeResults[0]['photo'] ?>" class="" alt="Colorlib Template">
                     </div>
                     <div style="color: #0b0b0b">
                         Description
-                        <textarea  class="text-center container-fluid"><?= $vegeResults[0]['description'] ?></textarea>
+                        <textarea  class="text-center container-fluid"><?= @$vegeResults[0]['description'] ?></textarea>
                     </div>
                     <div class="text-center " style="color: #0b0b0b">
-                        <p>Pays :<strong><?= $vegeResults[0]['origin'] ?></strong></p>
-                        <p>Categorie :<strong><?= $vegeResults[0]['category'] ?></strong></p>
-                        <p>Couleur :<strong><?= $vegeResults[0]['color'] ?></strong></p>
-                        <p>Varieté :<strong><?php if(is_null($vegeResults[0]['variety']))echo "N/A" ;else echo $vegeResults[0]['variety']?></strong></p>
+                        <p>Pays :<strong><?= @$vegeResults[0]['origin'] ?></strong></p>
+                        <p>Categorie :<strong><?= @$vegeResults[0]['category'] ?></strong></p>
+                        <p>Couleur :<strong><?= @$vegeResults[0]['color'] ?></strong></p>
+                        <p>Varieté :<strong><?php if(is_null(@$vegeResults[0]['variety']))echo "N/A" ;else echo @$vegeResults[0]['variety']?></strong></p>
                         <p>Couleur :<strong><?php
-                                if (fmod($vegeResults[0]['price'], 1) > 0) {
-                                    echo $vegeResults[0]['price'] . "CHF";
+                                if (fmod(@$vegeResults[0]['price'], 1) > 0) {
+                                    echo @$vegeResults[0]['price'] . "CHF";
                                 } else
-                                    echo intval($vegeResults[0]['price']) . ".-CHF";
+                                    echo intval(@$vegeResults[0]['price']) . ".-CHF";
                                 ?></strong></p>
                     </div>
                 </div>
