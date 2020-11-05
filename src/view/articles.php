@@ -53,7 +53,6 @@ $rows = 0; // Column count
         <div class="row">
             <?php foreach (@$vegeResults as $item)  : ?>
                 <?php
-
                 $_GET[$item['name'].$item["variety"]] = $item;
                 $_SESSION['allArticle'] = $_GET;
                 ?>

@@ -47,6 +47,9 @@ if (isset($_GET['action'])) {
         case 'register' :
             register($_POST);
             break;
+        case 'coupon' :
+            couponVerif($_POST);
+            break;
         case 'remove':
             removeToPanier($_SESSION['allArticle'][$_GET['add']],);
             break;
