@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="23096c81-84fa-4ff2-9b25-14708920a829" name="ProjWEBVEGEServ" url="http://localhost:8080">
+      <webServer id="a015c0cc-cbcc-4dd1-933e-404336859709" name="ProjetWebVege" url="http://localhost:8080">
         <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
     </option>
