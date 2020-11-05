@@ -49,13 +49,22 @@ function displayAnArticle($articleName,$origin)
     }
 }
 
+/**
+ *
+ */
 function displayPanier()
 {
     require_once "view/panier.php";
 }
-function addToPanier($element,$page)
+
+/**
+ * @param $element
+ * @param $page
+ * @param int $quantity
+ */
+function addToPanier($element, $page, $quantity = 1)
 {
-    $_SESSION['panier']->AddItem($element);
+    $_SESSION['panier']->AddItem($element,$quantity);
     if($page == "displayarticles")
         displayArticles();
     else
@@ -65,6 +74,10 @@ function addToPanier($element,$page)
             require_once "view/panier.php";
 
 }
+
+/**
+ * @param $element
+ */
 function removeToPanier($element)
 {
     $_SESSION['panier']->DeleteItem($element);

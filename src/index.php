@@ -33,16 +33,16 @@ if (isset($_GET['action'])) {
             displayPanier();
             break;
         case 'addPanier' :
-            addToPanier($_SESSION['allArticle'][$_GET['add']],@$_GET['page'],);
+            addToPanier($_SESSION['allArticle'][$_GET['add']],@$_GET['page']);
+            break;
+        case 'addLotPanier' :
+            addToPanier($_SESSION['allArticle'][$_GET['add']],@$_GET['page'],$_GET['quantity']);
             break;
         case 'login' :
             login($_POST);
             break;
         case 'logout' :
             logout();
-            break;
-        case 'register' :
-            register($_POST);
             break;
         case 'register' :
             register($_POST);

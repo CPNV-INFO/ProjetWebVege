@@ -11,7 +11,7 @@ Class Checkout
     private $total;
     private $checkoutitem;
 
-    public function Checkout( Panier $cart ,User $user)
+    public function Checkout( Panier $cart ,User $user = NULL)
     {
         $this->discount;
         $this->delivery;
