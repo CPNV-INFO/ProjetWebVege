@@ -103,7 +103,7 @@
                             <li><a class=""><span class="item btn btn-info" >Ajouter un article</span></a></li><br>
                             <li class="divider"></li>
                             <li><span class="item-left">Total:</span><span class="item-right">0</span></li><br>
-                            <li><a class="text-center btn btn-info" href="index?action=panier">View Cart</a></li>
+                            <li><a class="text-center btn btn-info" href="index.php?action=panier">View Cart</a></li>
                             <?php else:?>
                             <?php foreach (@$_SESSION['panier']->getListItem() as $item) : ?>
                             <li>
