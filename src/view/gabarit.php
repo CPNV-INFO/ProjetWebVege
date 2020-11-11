@@ -1,22 +1,24 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Vegefoods - <?=$title?></title>
+    <title>Vegefoods - <?= $title ?></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
+    <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
+ -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css"/>
 
-   <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
--->
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
 
     <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/healder.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
 
@@ -38,14 +40,16 @@
             <div class="col-lg-12 d-block">
                 <div class="row d-flex">
                     <div class="col-md pr-4 d-flex topper align-items-center">
-                        <div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
+                        <div class="icon mr-2 d-flex justify-content-center align-items-center"><span
+                                    class="icon-phone2"></span></div>
                         <span class="text">+ 1235 2355 98</span>
                     </div>
                     <div class="col-md pr-4 d-flex topper align-items-center">
-                        <div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
+                        <div class="icon mr-2 d-flex justify-content-center align-items-center"><span
+                                    class="icon-paper-plane"></span></div>
                         <!-- after login, we display the user name-->
                         <?php if (isset($_SESSION['userEmailAddress'])) : ?>
-                        <span class="text"><?=$_SESSION['userEmailAddress']?></span>
+                            <span class="text"><?= $_SESSION['userEmailAddress'] ?></span>
                         <?php endif; ?>
                     </div>
                     <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right">
@@ -59,36 +63,71 @@
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
         <a class="navbar-brand" href="index.html">Vegefoods</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu
         </button>
 
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
-            <!--    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown04">
-                        <a class="dropdown-item" href="view/content/shop.html">Shop</a>
-                    <a class="dropdown-item" href="view/content/wishlist.html">Wishlist</a>
-                        <a class="dropdown-item" href="view/content/product-single.html">Single Product</a>
-                        <a class="dropdown-item" href="view/content/cart.html">Cart</a>
-                        <a class="dropdown-item" href="view/content/checkout.html">Checkout</a>
+                <!--    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown04">
+                            <a class="dropdown-item" href="view/content/shop.html">Shop</a>
+                        <a class="dropdown-item" href="view/content/wishlist.html">Wishlist</a>
+                            <a class="dropdown-item" href="view/content/product-single.html">Single Product</a>
+                            <a class="dropdown-item" href="view/content/cart.html">Cart</a>
+                            <a class="dropdown-item" href="view/content/checkout.html">Checkout</a>
 
-                    </div>
-                </li>-->
+                        </div>
+                    </li>-->
                 <li class="nav-item"><a href="index.php?action=home" class="nav-link">Accueil</a></li>
-                <li class="nav-item"><a href="index.php?action=displayArticles"class="nav-link">Shop</a></li>
+                <li class="nav-item"><a href="index.php?action=displayArticles" class="nav-link">Shop</a></li>
                 <!-- Display the button useful for login and register-->
                 <?php if (!isset($_SESSION['userEmailAddress']) || (!isset($_GET['action'])) || ((@$_GET['action'] == "logout"))) : ?>
-                    <li class="nav-item"><a href="index.php?action=login"class="nav-link">Login </a></li>
-                    <li class="nav-item"><a href="index.php?action=register" class="nav-link"style="color:#FC05CB">S'inscrire</a></li>
+                    <li class="nav-item"><a href="index.php?action=login" class="nav-link">Login </a></li>
+                    <li class="nav-item"><a href="index.php?action=register" class="nav-link" style="color:#FC05CB">S'inscrire</a>
+                    </li>
                 <?php else : ?>
                     <!-- Display the button useful for logout-->
-                    <li class="nav-item"><a href="index.php?action=logout"class="nav-link">Se déconnecter </a></li>
+                    <li class="nav-item"><a href="index.php?action=logout" class="nav-link">Se déconnecter </a></li>
                 <?php endif; ?>
+                <li class=" nav-item cta cta-colored dropdown">
+                    <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button"
+                       aria-expanded="false"> <span
+                                class=" icon-shopping_cart "></span>[<?= @$_SESSION['panier']->getCount(); ?>]<span
+                                class="caret"></span></a>
+                    <ul class="dropdown-menu dropdown-cart" style="padding: 12px" role="menu">
 
-                <li class="nav-item cta cta-colored"><a id ="cart" href="index.php?action=panier" class="nav-link"><span class="fa fa-shopping-cart icon-shopping_cart"></span>[<?= @$_SESSION['panier']->getCount(); ?>]</a></li>
+                        <?php if(@$_SESSION['panier']->getListItem()==null) : ?>
+                            <li><a class=""><span class="item btn btn-info" >Ajouter un article</span></a></li><br>
+                            <li class="divider"></li>
+                            <li><span class="item-left">Total:</span><span class="item-right">0</span></li><br>
+                            <li><a class="text-center btn btn-info" href="index?action=panier">View Cart</a></li>
+                            <?php else:?>
+                            <?php foreach (@$_SESSION['panier']->getListItem() as $item) : ?>
+                            <li>
+                                <span class="item">
+                                <span class="item-left">
+                                            <img src="<?= $item[0]->photo ?>" width="50px" height="40px" alt=""/>
+                                        <span class="item-info">
+                                            <span><?= $item[0]->element . ' ' . $item[0]->variety ?></span>
+                                            <span>price: <?= $item[0]->getTotal(); ?><?php if ( fmod(round($item[0]->getTotal() , 2),1) > 0) echo number_format((float)round($item[0]->getTotal(), 2),2 ). "CHF"; else echo $item[0]->getTotal(). ".-CHf"; ?></span>
+                                        </span>
+                                    </span>
+                                <span class="item-right">
+                                        <button class="btn btn-danger  fa fa-close"></button>
+                                    </span>
+                                </span>
+                            </li>
+                        <?php endforeach; ?>
+                            <li class="divider"></li>
+                            <li><span class="item-left">Total:</span><span class="item-right"><?= @$_SESSION['panier']->getTotalprice(); ?><?php if ( fmod(round(@$_SESSION['panier']->getTotalprice() , 2),1) > 0) echo number_format((float)round(@$_SESSION['panier']->getTotalprice(), 2),2 ). "CHF"; else echo @$_SESSION['panier']->getTotalprice(). ".-CHf"; ?></span></li>
+                            <li><a class="text-center btn btn-info" href="index?action=panier">View Cart</a></li>
+                        <?php endif;?>
 
+                    </ul>
+                </li>
             </ul>
         </div>
     </div>
@@ -96,7 +135,7 @@
 
 <!-- END nav -->
 <!-- content -->
-<?=$content?>
+<?= $content ?>
 <footer class="ftco-footer ftco-section">
     <div class="container">
         <div class="row">
@@ -151,9 +190,12 @@
                     <h2 class="ftco-heading-2">Have a Questions?</h2>
                     <div class="block-23 mb-3">
                         <ul>
-                            <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                            <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                            <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                            <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span>
+                            </li>
+                            <li><a href="#"><span class="icon icon-phone"></span><span
+                                            class="text">+2 392 3929 210</span></a></li>
+                            <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -163,7 +205,10 @@
             <div class="col-md-12 text-center">
 
                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                    All rights reserved | This template is made with <i class="icon-heart color-danger"
+                                                                        aria-hidden="true"></i> by <a
+                            href="https://colorlib.com" target="_blank">Colorlib</a>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 </p>
             </div>
@@ -171,7 +216,13 @@
     </div>
 </footer>
 <!-- loader -->
-<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+<div id="ftco-loader" class="show fullscreen">
+    <svg class="circular" width="48px" height="48px">
+        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
+        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#F96D00"/>
+    </svg>
+</div>
 
 
 <script src="js/jquery.min.js"></script>
@@ -191,10 +242,10 @@
 <script src="js/google-map.js"></script>
 <script src="js/main.js"></script>
 <script>
-    $(document).ready(function(){
+    $(document).ready(function () {
 
-        var quantitiy=0;
-        $('.quantity-right-plus').click(function(e){
+        var quantitiy = 0;
+        $('.quantity-right-plus').click(function (e) {
 
             // Stop acting like a button
             e.preventDefault();
@@ -210,7 +261,7 @@
 
         });
 
-        $('.quantity-left-minus').click(function(e){
+        $('.quantity-left-minus').click(function (e) {
             // Stop acting like a button
             e.preventDefault();
             // Get the field name
@@ -219,7 +270,7 @@
             // If is not undefined
 
             // Increment
-            if(quantity>0){
+            if (quantity > 0) {
                 $('#quantity').val(quantity - 1);
             }
         });
@@ -227,10 +278,10 @@
     });
 </script>
 <script>
-    (function(){
+    (function () {
 
-        $("#cart").on("click", function() {
-            $(".shopping-cart").fadeToggle( "fast");
+        $("#cart").on("click", function () {
+            $(".shopping-cart").fadeToggle("fast");
         });
 
     })();</script>

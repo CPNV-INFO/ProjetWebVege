@@ -51,7 +51,10 @@ if (isset($_GET['action'])) {
             couponVerif($_POST);
             break;
         case 'remove':
-            removeToPanier($_SESSION['allArticle'][$_GET['add']],);
+            removeToPanier($_SESSION['allArticle'][$_GET['add']]);
+            break;
+        case 'delete':
+            removeAllPanier($_SESSION['allArticle'][$_GET['add']]);
             break;
         case 'checkout' :
             checkout();

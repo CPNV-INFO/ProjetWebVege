@@ -15,7 +15,7 @@ $title = "Panier";
         <div class="container">
             <div class="row no-gutters slider-text align-items-center justify-content-center">
                 <div class="col-md-9 ftco-animate text-center">
-                    <p class="breadcrumbs"><span class="mr-2"><a href="view/content/index.html">Home</a></span> <span>Cart</span>
+                    <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home</a></span> <span>Cart</span>
                     </p>
                     <h1 class="mb-0 bread">My Cart</h1>
                 </div>
@@ -52,7 +52,7 @@ $title = "Panier";
                                 <?php foreach ($_SESSION['panier']->getListItem() as $item) : ?>
                                     <tr class="text-center">
                                         <td class="product-remove"><a
-                                                    href="index.php?action=remove&add=<?= $item[0]->element.$item[0]->variety ?>"><span
+                                                    href="index.php?action=delete&add=<?= $item[0]->element.$item[0]->variety ?>"><span
                                                         class="ion-ios-close"></span></a></td>
                                         <td class="image-prod">
                                             <div class="img"

@@ -6,8 +6,8 @@ namespace ProjetWebVege;
 
 class Panier
 {
-    private $item ;
-    private $listItem ;
+    private $item;
+    private $listItem;
     private $count = 0;
 
     /**
@@ -24,16 +24,16 @@ class Panier
         $this->item->description = $items['description'];
         $this->item->variety = $items['variety'];
         $this->item->quantity = $quantity;
-        foreach ($this->listItem as $item)
-        {
-            if($item[0]->element == $items['name']&&$item[0]->variety == $items['variety'])
-            {
-               $validateAdd = false;
-               $item[0]->quantity++;
+        if (!is_null($this->listItem)) {
+            foreach ($this->listItem as $item) {
+                if ($item[0]->element == $items['name'] && $item[0]->variety == $items['variety']) {
+                    $validateAdd = false;
+                    $item[0]->quantity++;
+                }
             }
         }
-        if($validateAdd)
-            $this->listItem[$this->item->element.$this->item->variety] = array($this->item);
+        if ($validateAdd)
+            $this->listItem[$this->item->element . $this->item->variety] = array($this->item);
         $this->Count();
 
     }
@@ -52,20 +52,17 @@ class Panier
     public function DeleteItem($item)
     {
         $list = null;
-        foreach ($this->listItem as $value)
-        {
-            if($value[0]->element != $item['name'])
-            {
-                $list[$value[0]->element.$value[0]->variety] = $value;
-            }
-            else {
-                if($value[0]->variety == $item['variety'])
+        foreach ($this->listItem as $value) {
+            if ($value[0]->element != $item['name']) {
+                $list[$value[0]->element . $value[0]->variety] = $value;
+            } else {
+                if ($value[0]->variety == $item['variety'])
                     $value[0]->quantity--;
                 else
-                    $list[$value[0]->element.$value[0]->variety] = $value;
+                    $list[$value[0]->element . $value[0]->variety] = $value;
             }
         }
-        if( $this->listItem[$item['name'].$item['variety']][0]->quantity == 0){
+        if ($this->listItem[$item['name'] . $item['variety']][0]->quantity == 0) {
             $this->listItem = $list;
         }
         $this->Count();
@@ -77,20 +74,17 @@ class Panier
     public function DeleteAllItem($item)
     {
         $list = null;
-        foreach ($this->listItem as $value)
-        {
-            if($value[0]->element != $item['name'])
-            {
-                $list[$value[0]->element.$value[0]->variety] = $value;
-            }
-            else {
-                if($value[0]->variety == $item['variety'])
+        foreach ($this->listItem as $value) {
+            if ($value[0]->element != $item['name']) {
+                $list[$value[0]->element . $value[0]->variety] = $value;
+            } else {
+                if ($value[0]->variety == $item['variety'])
                     $value[0]->quantity = 0;
                 else
-                    $list[$value[0]->element.$value[0]->variety] = $value;
+                    $list[$value[0]->element . $value[0]->variety] = $value;
             }
         }
-        if( $this->listItem[$item['name'].$item['variety']][0]->quantity == 0){
+        if ($this->listItem[$item['name'] . $item['variety']][0]->quantity == 0) {
             $this->listItem = $list;
         }
         $this->Count();
@@ -101,7 +95,7 @@ class Panier
      */
     private function Count()
     {
-         $this->count =  sizeof($this->listItem);
+        $this->count = sizeof($this->listItem);
 
     }
 
@@ -111,9 +105,17 @@ class Panier
     public function getCount()
     {
         $total = 0;
-        foreach ($this->listItem as $item)
-        {
-           $total +=  $item[0]->quantity;
+        foreach ($this->listItem as $item) {
+            $total += $item[0]->quantity;
+        }
+        return $total;
+    }
+
+    public function getTotalprice()
+    {
+        $total = 0;
+        foreach ($this->listItem as $item) {
+            $total += $item[0]->price * $item[0]->quantity;
         }
         return $total;
     }
@@ -127,5 +129,10 @@ class Buyitem
     public $price;
     public $photo;
     public $variety;
-    public $quantity = 1;
+    public $quantity;
+
+    public function getTotal()
+    {
+        return $this->price * $this->quantity;
+    }
 }

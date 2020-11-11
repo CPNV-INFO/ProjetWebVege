@@ -91,7 +91,7 @@ $rows = 0; // Column count
                         </div>
                         <p>
                             <a type="submit" name="quantity"
-                               href="index.php?action=addPanier&add=<?= $vegeResults[0]['name'] . $vegeResults[0]['variety'] ?>&page=anArticle"
+                               href="index.php?action=addLotPanier&add=<?= $vegeResults[0]['name'] . $vegeResults[0]['variety'] ?>&page=anArticle"
                                class="btn btn-black py-3 px-5">Add to Cart</a></p>
                     </div>
                 </div>
