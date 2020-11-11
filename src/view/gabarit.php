@@ -111,19 +111,19 @@
                                 <span class="item-left">
                                             <img src="<?= $item[0]->photo ?>" width="50px" height="40px" alt=""/>
                                         <span class="item-info">
-                                            <span><?= $item[0]->element . ' ' . $item[0]->variety ?></span>
-                                            <span>price: <?= $item[0]->getTotal(); ?><?php if ( fmod(round($item[0]->getTotal() , 2),1) > 0) echo number_format((float)round($item[0]->getTotal(), 2),2 ). "CHF"; else echo $item[0]->getTotal(). ".-CHf"; ?></span>
+                                            <span><?= $item[0]->quantity.' '.$item[0]->element . ' ' . $item[0]->variety ?></span>
+                                            <span>price: <?php if ( fmod(round($item[0]->getTotal() , 2),1) > 0) echo number_format((float)round($item[0]->getTotal(), 2),2 ). "CHF"; else echo $item[0]->getTotal(). ".-CHf"; ?></span>
                                         </span>
                                     </span>
                                 <span class="item-right">
-                                        <button class="btn btn-danger  fa fa-close"></button>
+                                        <a href="index.php?action=delete&add=<?= $item[0]->element.$item[0]->variety?>" class="btn btn-danger  fa fa-close"></a>
                                     </span>
                                 </span>
                             </li>
                         <?php endforeach; ?>
                             <li class="divider"></li>
-                            <li><span class="item-left">Total:</span><span class="item-right"><?= @$_SESSION['panier']->getTotalprice(); ?><?php if ( fmod(round(@$_SESSION['panier']->getTotalprice() , 2),1) > 0) echo number_format((float)round(@$_SESSION['panier']->getTotalprice(), 2),2 ). "CHF"; else echo @$_SESSION['panier']->getTotalprice(). ".-CHf"; ?></span></li>
-                            <li><a class="text-center btn btn-info" href="index?action=panier">View Cart</a></li>
+                            <li><span class="item-left">Total:</span><span class="item-right"><?php if ( fmod(@$_SESSION['panier']->getTotalprice() , 2) > 0) echo number_format((float)round(@$_SESSION['panier']->getTotalprice(), 2),2 ). "CHF"; else echo @$_SESSION['panier']->getTotalprice(). ".-CHf"; ?></span></li><br>
+                            <li><a class="text-center btn btn-info item col-12" href="index?action=panier">View Cart</a></li>
                         <?php endif;?>
 
                     </ul>
