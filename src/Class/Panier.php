@@ -9,7 +9,12 @@ class Panier
     private $item ;
     private $listItem ;
     private $count = 0;
-    public function AddItem($items,$quantity = 1)
+
+    /**
+     * @param $items
+     * @param int $quantity
+     */
+    public function AddItem($items, $quantity = 1)
     {
         $validateAdd = true;
         $this->item = new Buyitem();
@@ -32,10 +37,18 @@ class Panier
         $this->Count();
 
     }
+
+    /**
+     * @return mixed
+     */
     public function getListItem()
     {
         return $this->listItem;
     }
+
+    /**
+     * @param $item
+     */
     public function DeleteItem($item)
     {
         $list = null;
@@ -57,6 +70,10 @@ class Panier
         }
         $this->Count();
     }
+
+    /**
+     * @param $item
+     */
     public function DeleteAllItem($item)
     {
         $list = null;
@@ -78,11 +95,19 @@ class Panier
         }
         $this->Count();
     }
+
+    /**
+     *
+     */
     private function Count()
     {
          $this->count =  sizeof($this->listItem);
 
     }
+
+    /**
+     * @return int
+     */
     public function getCount()
     {
         $total = 0;

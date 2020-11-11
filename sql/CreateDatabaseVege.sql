@@ -27,10 +27,8 @@ CREATE TABLE IF NOT EXISTS `coupon` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Listage des données de la table vege.coupon : ~1 rows (environ)
+-- Listage des données de la table vege.coupon : ~0 rows (environ)
 /*!40000 ALTER TABLE `coupon` DISABLE KEYS */;
-REPLACE INTO `coupon` (`id`, `code`, `rabais`, `valable`) VALUES
-	(1, '6gfbxsr3JpZHK37a', 10, 1);
 /*!40000 ALTER TABLE `coupon` ENABLE KEYS */;
 
 -- Listage de la structure de la table vege. users
@@ -41,10 +39,12 @@ CREATE TABLE IF NOT EXISTS `users` (
   `userHashPsw` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `userEmailAddress` (`userEmailAddress`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Listage des données de la table vege.users : ~0 rows (environ)
+-- Listage des données de la table vege.users : ~1 rows (environ)
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
+REPLACE INTO `users` (`id`, `userEmailAddress`, `userHashPsw`) VALUES
+	(3, 'test@gmail.com', '$2y$10$jvyyi66Nq0f5IhvOlaaMLOyEsU/J7tzZjj8kEzON/KZM5kTZLNlfq');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 
 -- Listage de la structure de la table vege. vege

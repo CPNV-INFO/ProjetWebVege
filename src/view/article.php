@@ -16,8 +16,8 @@ $rows = 0; // Column count
         <div class="container">
             <div class="row no-gutters slider-text align-items-center justify-content-center">
                 <div class="col-md-9 ftco-animate text-center">
-                    <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span class="mr-2"><a
-                                    href="index.html">Product</a></span> <span>Product Single</span></p>
+                    <p class="breadcrumbs"><span class="mr-2"><a href="index.php?action=home">Home</a></span> <span class="mr-2"><a
+                                    href="">Product</a></span> <span>Product Single</span></p>
                     <h1 class="mb-0 bread">Product Single</h1>
                 </div>
             </div>
@@ -29,7 +29,7 @@ $rows = 0; // Column count
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 mb-5 ftco-animate">
-                        <a href="<?= @$vegeResults[0]['photo'] ?>" class="image-popup"><img
+                        <a href="<?php if (file_exists(@$vegeResults[0]['photo'])) echo @$vegeResults[0]['photo']; else  echo "view/content/images/pictureNoFound.jpg"; ?>" class="image-popup"><img
                                     src="<?= @$vegeResults[0]['photo'] ?>" class="img-fluid"
                                     alt="Colorlib Template"></a>
                     </div>

@@ -16,11 +16,11 @@
     <link rel="stylesheet" href="css/animate.css">
 
     <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/healder.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
 
     <link rel="stylesheet" href="css/aos.css">
-
     <link rel="stylesheet" href="css/ionicons.min.css">
 
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
@@ -87,12 +87,13 @@
                     <li class="nav-item"><a href="index.php?action=logout"class="nav-link">Se déconnecter </a></li>
                 <?php endif; ?>
 
-                <li class="nav-item cta cta-colored"><a href="index.php?action=panier" class="nav-link"><span class="icon-shopping_cart"></span>[<?= @$_SESSION['panier']->getCount(); ?>]</a></li>
+                <li class="nav-item cta cta-colored"><a id ="cart" href="index.php?action=panier" class="nav-link"><span class="fa fa-shopping-cart icon-shopping_cart"></span>[<?= @$_SESSION['panier']->getCount(); ?>]</a></li>
 
             </ul>
         </div>
     </div>
 </nav>
+
 <!-- END nav -->
 <!-- content -->
 <?=$content?>
@@ -225,5 +226,13 @@
 
     });
 </script>
+<script>
+    (function(){
+
+        $("#cart").on("click", function() {
+            $(".shopping-cart").fadeToggle( "fast");
+        });
+
+    })();</script>
 </body>
 </html>
