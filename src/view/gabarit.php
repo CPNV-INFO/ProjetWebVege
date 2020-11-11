@@ -95,7 +95,7 @@
                 <li class=" nav-item cta cta-colored dropdown">
                     <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button"
                        aria-expanded="false"> <span
-                                class=" icon-shopping_cart "></span>[<?= @$_SESSION['panier']->getCount(); ?>]<span
+                                class=" icon-shopping_cart "></span>[<?php if(is_null($_SESSION['panier']->getCount())){} else echo @$_SESSION['panier']->getCount(); ?>]<span
                                 class="caret"></span></a>
                     <ul class="dropdown-menu dropdown-cart" style="padding: 12px" role="menu">
 

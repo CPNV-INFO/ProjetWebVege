@@ -105,10 +105,14 @@ class Panier
     public function getCount()
     {
         $total = 0;
+        if(is_null($this->listItem))
+            return '0';
+        else{
         foreach ($this->listItem as $item) {
             $total += $item[0]->quantity;
         }
         return $total;
+        }
     }
 
     public function getTotalprice()
